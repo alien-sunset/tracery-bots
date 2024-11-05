@@ -1,0 +1,310 @@
+{
+"Bot home": ["https://botsin.space/@GrandmasQuilt"],
+"Bot maker": ["https://bsky.app/profile/aliensunset.bsky.social","https://dice.camp/@Alien_Sunset", "https://github.com/alien-sunset"],
+"Bot source":["https://cheapbotstootsweet.com/source/?url=https://botsin.space/@GrandmasQuilt"],
+"All the Bots": ["https://bsky.app/profile/Color-Palette-Bot.botsin.space.ap.brid.gy","https://bsky.app/profile/soft-skylines.bsky.social","https://bsky.app/profile/remedios-varo-bot.bsky.social","https://botsin.space/@Color_Palette_Bot", "https://botsin.space/@NumbersBot", "https://botsin.space/@GrandmasQuilt", "https://botsin.space/@Soft_Skylines", "https://botsin.space/@Remedios_Varo_Bot"],
+"Bots on the Web":["https://alien-sunset.neocities.org/bots/Bots"],
+
+"nameSource": ["names below pulled from this amazing list: https://github.com/aruljohn/popular-baby-names"],
+
+
+"origin": ["Grandma's quilt \\# #number##number##number##number#, made for #name#, age #number#:#svg#"],
+ 
+"color": ["#hex#","#hex#","#hex#","#pastelHex#","#hex#","#hex#","#hex#"],
+"box": ["▣","▩","▤","▥","▦","▧","▨","▣","▩","▤","▥","▦","▧","▨","▣"],
+"number": ["1","2","3","4","5","6","7","8","9","0"],
+"digit": ["0","1","2","3","4","5","6","7","8","9","a","b","c","d","e","f"],
+"letter": ["a","b","c","d","e"],
+"pastelHex": ["\\##letter##digit##letter##digit##letter##digit#"],
+"hex": ["\\##digit##digit##digit##digit##digit##digit#"],
+ 
+"gradType": ["#grad1#","#grad2#"],
+"bgcolor": ["\\#330000","\\#002100","\\#000033","\\#102100","\\#002110","\\#330020","\\#201000","\\#001020","\\#200033","\\#000000","\\#000000","\\#000000"],
+"gradStart": ["95","75","50","25","5"],
+"gradEnd": ["95","75","50","25","5"],
+"focal": ["66","50","50","50","33"],
+"rad": ["75","50","50","50","25"],
+"rot": ["0","0","0","0","5","10","15","20","25","30","35","40","45","0","0","0","0","-5","-10","-15","-20","-25","-30","-35","-40","-45"],
+"skew": ["0","0","5","10","15","0","0","-5","-10","-15"],
+"trans": ["0","0","0","0","0","0",".1","-.1",".2","-.2",".15","-.15",".25","-.25",".3","-.3"],
+
+
+"svg": [
+"{svg <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width='401' height='601'>#gradType#<rect x='0' y='0' style='fill:url(\\#grad)' width='401' height='601'/>#row1##row2##row3##row4##row5##row6##row7##row8##row9##row10##row11##row12##row13##row14##row15#</svg>}{alt a rectangle of multicolored squares with various fill patterns on a black background}"
+],
+
+
+"grad1": [
+"<defs><radialGradient id='grad' cx='50%' cy='50%' r='#rad#%' fx='#focal#%' fy='#focal#%' spreadMethod='reflect' gradientTransform='skewX(#skew#) skewY(#skew#) translate(#trans#, #trans#)'><stop offset='0%' stop-color='#bgcolor#' /><stop offset='50%' stop-color='\\#000000' /><stop offset='100%' stop-color='#bgcolor#' /></radialGradient></defs>"
+],
+"grad2": [
+"<defs><linearGradient id='grad' x1='#gradStart#%' x2='#gradEnd#%' y1='#gradStart#%' y2='#gradEnd#%' spreadMethod='reflect' gradientTransform='translate(#trans#, #trans#) rotate(#rot#)'><stop offset='0%' stop-color='#bgcolor#' /><stop offset='50%' stop-color='\\#000000' /><stop offset='100%' stop-color='#bgcolor#' /></linearGradient></defs>"
+],
+
+
+"row1": [
+"<text x='-7' y='40' fill='#color#' font-size='68'>#box#</text><text x='33' y='40' fill='#color#' font-size='68'>#box#</text><text x='73' y='40' fill='#color#' font-size='68'>#box#</text><text x='113' y='40' fill='#color#' font-size='68'>#box#</text><text x='153' y='40' fill='#color#' font-size='68'>#box#</text><text x='193' y='40' fill='#color#' font-size='68'>#box#</text><text x='233' y='40' fill='#color#' font-size='68'>#box#</text><text x='273' y='40' fill='#color#' font-size='68'>#box#</text><text x='313' y='40' fill='#color#' font-size='68'>#box#</text><text x='353' y='40' fill='#color#' font-size='68'>#box#</text>"
+],
+
+"row2": [
+"<text x='-7' y='80' fill='#color#' font-size='68'>#box#</text><text x='33' y='80' fill='#color#' font-size='68'>#box#</text><text x='73' y='80' fill='#color#' font-size='68'>#box#</text><text x='113' y='80' fill='#color#' font-size='68'>#box#</text><text x='153' y='80' fill='#color#' font-size='68'>#box#</text><text x='193' y='80' fill='#color#' font-size='68'>#box#</text><text x='233' y='80' fill='#color#' font-size='68'>#box#</text><text x='273' y='80' fill='#color#' font-size='68'>#box#</text><text x='313' y='80' fill='#color#' font-size='68'>#box#</text><text x='353' y='80' fill='#color#' font-size='68'>#box#</text>"
+],
+
+"row3": [
+"<text x='-7' y='120' fill='#color#' font-size='68'>#box#</text><text x='33' y='120' fill='#color#' font-size='68'>#box#</text><text x='73' y='120' fill='#color#' font-size='68'>#box#</text><text x='113' y='120' fill='#color#' font-size='68'>#box#</text><text x='153' y='120' fill='#color#' font-size='68'>#box#</text><text x='193' y='120' fill='#color#' font-size='68'>#box#</text><text x='233' y='120' fill='#color#' font-size='68'>#box#</text><text x='273' y='120' fill='#color#' font-size='68'>#box#</text><text x='313' y='120' fill='#color#' font-size='68'>#box#</text><text x='353' y='120' fill='#color#' font-size='68'>#box#</text>"
+],
+
+"row4": [
+"<text x='-7' y='160' fill='#color#' font-size='68'>#box#</text><text x='33' y='160' fill='#color#' font-size='68'>#box#</text><text x='73' y='160' fill='#color#' font-size='68'>#box#</text><text x='113' y='160' fill='#color#' font-size='68'>#box#</text><text x='153' y='160' fill='#color#' font-size='68'>#box#</text><text x='193' y='160' fill='#color#' font-size='68'>#box#</text><text x='233' y='160' fill='#color#' font-size='68'>#box#</text><text x='273' y='160' fill='#color#' font-size='68'>#box#</text><text x='313' y='160' fill='#color#' font-size='68'>#box#</text><text x='353' y='160' fill='#color#' font-size='68'>#box#</text>"
+],
+
+"row5": [
+"<text x='-7' y='200' fill='#color#' font-size='68'>#box#</text><text x='33' y='200' fill='#color#' font-size='68'>#box#</text><text x='73' y='200' fill='#color#' font-size='68'>#box#</text><text x='113' y='200' fill='#color#' font-size='68'>#box#</text><text x='153' y='200' fill='#color#' font-size='68'>#box#</text><text x='193' y='200' fill='#color#' font-size='68'>#box#</text><text x='233' y='200' fill='#color#' font-size='68'>#box#</text><text x='273' y='200' fill='#color#' font-size='68'>#box#</text><text x='313' y='200' fill='#color#' font-size='68'>#box#</text><text x='353' y='200' fill='#color#' font-size='68'>#box#</text>"
+],
+
+"row6": [
+"<text x='-7' y='240' fill='#color#' font-size='68'>#box#</text><text x='33' y='240' fill='#color#' font-size='68'>#box#</text><text x='73' y='240' fill='#color#' font-size='68'>#box#</text><text x='113' y='240' fill='#color#' font-size='68'>#box#</text><text x='153' y='240' fill='#color#' font-size='68'>#box#</text><text x='193' y='240' fill='#color#' font-size='68'>#box#</text><text x='233' y='240' fill='#color#' font-size='68'>#box#</text><text x='273' y='240' fill='#color#' font-size='68'>#box#</text><text x='313' y='240' fill='#color#' font-size='68'>#box#</text><text x='353' y='240' fill='#color#' font-size='68'>#box#</text>"
+],
+
+"row7": [
+"<text x='-7' y='280' fill='#color#' font-size='68'>#box#</text><text x='33' y='280' fill='#color#' font-size='68'>#box#</text><text x='73' y='280' fill='#color#' font-size='68'>#box#</text><text x='113' y='280' fill='#color#' font-size='68'>#box#</text><text x='153' y='280' fill='#color#' font-size='68'>#box#</text><text x='193' y='280' fill='#color#' font-size='68'>#box#</text><text x='233' y='280' fill='#color#' font-size='68'>#box#</text><text x='273' y='280' fill='#color#' font-size='68'>#box#</text><text x='313' y='280' fill='#color#' font-size='68'>#box#</text><text x='353' y='280' fill='#color#' font-size='68'>#box#</text>"
+],
+
+"row8": [
+"<text x='-7' y='320' fill='#color#' font-size='68'>#box#</text><text x='33' y='320' fill='#color#' font-size='68'>#box#</text><text x='73' y='320' fill='#color#' font-size='68'>#box#</text><text x='113' y='320' fill='#color#' font-size='68'>#box#</text><text x='153' y='320' fill='#color#' font-size='68'>#box#</text><text x='193' y='320' fill='#color#' font-size='68'>#box#</text><text x='233' y='320' fill='#color#' font-size='68'>#box#</text><text x='273' y='320' fill='#color#' font-size='68'>#box#</text><text x='313' y='320' fill='#color#' font-size='68'>#box#</text><text x='353' y='320' fill='#color#' font-size='68'>#box#</text>"
+],
+
+"row9": [
+"<text x='-7' y='360' fill='#color#' font-size='68'>#box#</text><text x='33' y='360' fill='#color#' font-size='68'>#box#</text><text x='73' y='360' fill='#color#' font-size='68'>#box#</text><text x='113' y='360' fill='#color#' font-size='68'>#box#</text><text x='153' y='360' fill='#color#' font-size='68'>#box#</text><text x='193' y='360' fill='#color#' font-size='68'>#box#</text><text x='233' y='360' fill='#color#' font-size='68'>#box#</text><text x='273' y='360' fill='#color#' font-size='68'>#box#</text><text x='313' y='360' fill='#color#' font-size='68'>#box#</text><text x='353' y='360' fill='#color#' font-size='68'>#box#</text>"
+],
+
+"row10": [
+"<text x='-7' y='400' fill='#color#' font-size='68'>#box#</text><text x='33' y='400' fill='#color#' font-size='68'>#box#</text><text x='73' y='400' fill='#color#' font-size='68'>#box#</text><text x='113' y='400' fill='#color#' font-size='68'>#box#</text><text x='153' y='400' fill='#color#' font-size='68'>#box#</text><text x='193' y='400' fill='#color#' font-size='68'>#box#</text><text x='233' y='400' fill='#color#' font-size='68'>#box#</text><text x='273' y='400' fill='#color#' font-size='68'>#box#</text><text x='313' y='400' fill='#color#' font-size='68'>#box#</text><text x='353' y='400' fill='#color#' font-size='68'>#box#</text>"
+],
+
+"row11": [
+"<text x='-7' y='440' fill='#color#' font-size='68'>#box#</text><text x='33' y='440' fill='#color#' font-size='68'>#box#</text><text x='73' y='440' fill='#color#' font-size='68'>#box#</text><text x='113' y='440' fill='#color#' font-size='68'>#box#</text><text x='153' y='440' fill='#color#' font-size='68'>#box#</text><text x='193' y='440' fill='#color#' font-size='68'>#box#</text><text x='233' y='440' fill='#color#' font-size='68'>#box#</text><text x='273' y='440' fill='#color#' font-size='68'>#box#</text><text x='313' y='440' fill='#color#' font-size='68'>#box#</text><text x='353' y='440' fill='#color#' font-size='68'>#box#</text>"
+],
+
+"row12": [
+"<text x='-7' y='480' fill='#color#' font-size='68'>#box#</text><text x='33' y='480' fill='#color#' font-size='68'>#box#</text><text x='73' y='480' fill='#color#' font-size='68'>#box#</text><text x='113' y='480' fill='#color#' font-size='68'>#box#</text><text x='153' y='480' fill='#color#' font-size='68'>#box#</text><text x='193' y='480' fill='#color#' font-size='68'>#box#</text><text x='233' y='480' fill='#color#' font-size='68'>#box#</text><text x='273' y='480' fill='#color#' font-size='68'>#box#</text><text x='313' y='480' fill='#color#' font-size='68'>#box#</text><text x='353' y='480' fill='#color#' font-size='68'>#box#</text>"
+],
+
+"row13": [
+"<text x='-7' y='520' fill='#color#' font-size='68'>#box#</text><text x='33' y='520' fill='#color#' font-size='68'>#box#</text><text x='73' y='520' fill='#color#' font-size='68'>#box#</text><text x='113' y='520' fill='#color#' font-size='68'>#box#</text><text x='153' y='520' fill='#color#' font-size='68'>#box#</text><text x='193' y='520' fill='#color#' font-size='68'>#box#</text><text x='233' y='520' fill='#color#' font-size='68'>#box#</text><text x='273' y='520' fill='#color#' font-size='68'>#box#</text><text x='313' y='520' fill='#color#' font-size='68'>#box#</text><text x='353' y='520' fill='#color#' font-size='68'>#box#</text>"
+],
+
+"row14": [
+"<text x='-7' y='560' fill='#color#' font-size='68'>#box#</text><text x='33' y='560' fill='#color#' font-size='68'>#box#</text><text x='73' y='560' fill='#color#' font-size='68'>#box#</text><text x='113' y='560' fill='#color#' font-size='68'>#box#</text><text x='153' y='560' fill='#color#' font-size='68'>#box#</text><text x='193' y='560' fill='#color#' font-size='68'>#box#</text><text x='233' y='560' fill='#color#' font-size='68'>#box#</text><text x='273' y='560' fill='#color#' font-size='68'>#box#</text><text x='313' y='560' fill='#color#' font-size='68'>#box#</text><text x='353' y='560' fill='#color#' font-size='68'>#box#</text>"
+],
+
+"row15": [
+"<text x='-7' y='600' fill='#color#' font-size='68'>#box#</text><text x='33' y='600' fill='#color#' font-size='68'>#box#</text><text x='73' y='600' fill='#color#' font-size='68'>#box#</text><text x='113' y='600' fill='#color#' font-size='68'>#box#</text><text x='153' y='600' fill='#color#' font-size='68'>#box#</text><text x='193' y='600' fill='#color#' font-size='68'>#box#</text><text x='233' y='600' fill='#color#' font-size='68'>#box#</text><text x='273' y='600' fill='#color#' font-size='68'>#box#</text><text x='313' y='600' fill='#color#' font-size='68'>#box#</text><text x='353' y='600' fill='#color#' font-size='68'>#box#</text>"
+],
+
+"name": [
+"John",
+"William",
+"James",
+"Charles",
+"George",
+"Frank",
+"Joseph",
+"Thomas",
+"Henry",
+"Robert",
+"Edward",
+"Harry",
+"Walter",
+"Arthur",
+"Fred",
+"Albert",
+"Samuel",
+"David",
+"Louis",
+"Joe",
+"Charlie",
+"Clarence",
+"Richard",
+"Andrew",
+"Daniel",
+"Ernest",
+"Will",
+"Jesse",
+"Oscar",
+"Lewis",
+"Peter",
+"Benjamin",
+"Frederick",
+"Willie",
+"Alfred",
+"Sam",
+"Roy",
+"Herbert",
+"Jacob",
+"Tom",
+"Elmer",
+"Carl",
+"Lee",
+"Howard",
+"Martin",
+"Michael",
+"Bert",
+"Herman",
+"Jim",
+"Francis",
+"Mary",
+"Anna",
+"Emma",
+"Elizabeth",
+"Minnie",
+"Margaret",
+"Ida",
+"Alice",
+"Bertha",
+"Sarah",
+"Annie",
+"Clara",
+"Ella",
+"Florence",
+"Cora",
+"Martha",
+"Laura",
+"Nellie",
+"Grace",
+"Carrie",
+"Maude",
+"Mabel",
+"Bessie",
+"Jennie",
+"Gertrude",
+"Julia",
+"Hattie",
+"Edith",
+"Mattie",
+"Rose",
+"Catherine",
+"Lillian",
+"Ada",
+"Lillie",
+"Helen",
+"Jessie",
+"Louise",
+"Ethel",
+"Lula",
+"Myrtle",
+"Eva",
+"Frances",
+"Lena",
+"Lucy",
+"Edna",
+"Maggie",
+"Pearl",
+"Daisy",
+"Fannie",
+"Josephine",
+"Michael",
+"Christopher",
+"Matthew",
+"Jason",
+"David",
+"Joshua",
+"James",
+"John",
+"Robert",
+"Daniel",
+"Joseph",
+"Justin",
+"Ryan",
+"Brian",
+"William",
+"Jonathan",
+"Eric",
+"Andrew",
+"Brandon",
+"Adam",
+"Nicholas",
+"Jeremy",
+"Anthony",
+"Timothy",
+"Kevin",
+"Thomas",
+"Richard",
+"Steven",
+"Jeffrey",
+"Aaron",
+"Charles",
+"Benjamin",
+"Mark",
+"Scott",
+"Paul",
+"Nathan",
+"Jesse",
+"Patrick",
+"Stephen",
+"Travis",
+"Kenneth",
+"Dustin",
+"Jacob",
+"Sean",
+"Jose",
+"Gregory",
+"Chad",
+"Bryan",
+"Shawn",
+"Bradley",
+"Jennifer",
+"Jessica",
+"Amanda",
+"Sarah",
+"Melissa",
+"Amy",
+"Nicole",
+"Stephanie",
+"Elizabeth",
+"Heather",
+"Michelle",
+"Rebecca",
+"Kimberly",
+"Tiffany",
+"Angela",
+"Crystal",
+"Christina",
+"Lisa",
+"Erin",
+"Amber",
+"Laura",
+"Rachel",
+"Kelly",
+"Andrea",
+"April",
+"Sara",
+"Mary",
+"Jamie",
+"Emily",
+"Danielle",
+"Kristin",
+"Shannon",
+"Megan",
+"Ashley",
+"Lauren",
+"Erica",
+"Julie",
+"Kristen",
+"Katherine",
+"Maria",
+"Brandy",
+"Christine",
+"Courtney",
+"Katie",
+"Tara",
+"Alicia",
+"Lindsay",
+"Kathryn",
+"Monica",
+"Brandi",
+"Epidiah",
+"Willa",
+"Abigail"
+]
+}

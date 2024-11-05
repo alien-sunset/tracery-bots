@@ -1,0 +1,109 @@
+{
+"Bot home": ["https://bsky.app/profile/soft-skylines.bsky.social"],
+"Bot maker": ["https://bsky.app/profile/aliensunset.bsky.social","https://dice.camp/@Alien_Sunset", "https://github.com/alien-sunset"],
+"Bot source":["https://bluebotsdonequick.com/"],
+"All the Bots": ["https://bsky.app/profile/Color-Palette-Bot.botsin.space.ap.brid.gy","https://bsky.app/profile/soft-skylines.bsky.social","https://bsky.app/profile/remedios-varo-bot.bsky.social","https://botsin.space/@Color_Palette_Bot", "https://botsin.space/@NumbersBot", "https://botsin.space/@GrandmasQuilt", "https://botsin.space/@Soft_Skylines", "https://botsin.space/@Remedios_Varo_Bot"],
+"Bots on the Web":["https://alien-sunset.neocities.org/bots/Bots"],
+
+
+"origin": ["#svg#"],
+
+
+"svg":["{svg <svg width='1000' height='500' xmlns=\"http://www.w3.org/2000/svg\"> #defs# #night# #stars# #moon# #feature# #cityB# #cityF# #wall# </svg> alt an svg drawing of a cityscape in front of a starry night sky with a large pastel moon hanging in the background}"],
+
+
+"defs":["<defs>#nightGrad##radGrad1##radGrad2##radGrad3##radGrad4##moonPattern##cityBPattern##cityFPattern##featurePattern#</defs>"],
+
+"night":["<rect x='0' y ='0' width='1000' height='500' fill='\\#00000' /><rect x='-250' y ='-200' width='1500' height='1000' fill='url(\\#nGrad)' transform='rotate(#rot# #xpivot# #ypivot#)'  />"],
+
+"stars":["#dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots##dots#"],
+
+"moon":["<circle cx='300' cy='220' r='200' fill='url(\\#mPatt)' />"],
+
+"cityB":["<path fill='url(\\#cBPatt)' stroke='\\#303030' stroke-width='1' d='M0 500 V#bldgTop# h50+#plus# V500 h50 V#bldgTop# h50+#plus# V500 h50 V#bldgTop# h50+#plus# V500 h50 V#bldgTop# h50+#plus# V500 h50 V#bldgTop# h50+#plus# V500 h50 V#bldgTop# h50+#plus# V500 h50 V#bldgTop# h50+#plus# V500 h50 V#bldgTop# h50+#plus# V500 h50 V#bldgTop# h50+#plus# V500 h50 V#bldgTop# h50+#plus# V500  z' />"],
+
+"cityF":["<path fill='url(\\#cFPatt)' stroke='\\#101010' stroke-width='2' d='M5 500 V#bldgTop2# h50+#plus# V500 h5+#plus# V#bldgTop2# h50+#plus# V500 h10+#plus# V#bldgTop2# h50+#plus# V500 h5+#plus# V#bldgTop2# h50+#plus# V500 h10+#plus# V#bldgTop2# h50+#plus# V500 h5+#plus# V#bldgTop2# h50+#plus# V500 h10+#plus# V#bldgTop2# h50+#plus# V500 h5+#plus# V#bldgTop2# h50+#plus# V500 h10+#plus# V#bldgTop2# h50+#plus# V500 h5+#plus# V#bldgTop2# h50+#plus# V500 h10+#plus# V#bldgTop2# h50+#plus# V500 h5+#plus# V#bldgTop2# h50+#plus# V500 h10+#plus# V#bldgTop2# h50+#plus# V500 h5+#plus# V#bldgTop2# h50+#plus# V500 h10+#plus# V#bldgTop2# h50+#plus# V500 h5+#plus# V#bldgTop2# h50+#plus# V500  z' />"],
+
+"feature":["<rect x='#numXFeat#' y='#numYFeat#' width='100' height='100' fill='url(\\#feat)' transform='scale(#scale#, 1)'  transform-origin='center'/> "],
+
+"wall":["<rect x='0' y ='467' width='1000' height='33' fill='\\#454545' /><rect x='0' y ='467' width='1000' height='33' fill='url(\\#nGrad)' />"],
+
+
+"featurePattern":["<pattern id='feat' width='1' height='1'>#randomBits#</pattern>"],
+
+"cityBPattern":["<pattern id='cBPatt' x='0' y='125' width='50' height='400'  patternUnits='userSpaceOnUse'>#bldngB##windows#</pattern>"],
+"cityFPattern":["<pattern id='cFPatt' x='0' y='125' width='50' height='400' patternUnits='userSpaceOnUse'>#bldngF##windows#</pattern>"],
+
+"moonPattern":["<pattern id='mPatt' width='1' height='1'>#back##shape2##shape3##shape1##shape4#</pattern>"],
+
+
+"bldngB":["<rect x='0' y ='0' width='50' height='400' fill='\\#404040' /><rect x='0' y ='0' width='50' height='500' fill='url(\\#nGrad)' />"],
+"bldngF":["<rect x='0' y ='0' width='50' height='400' fill='\\#303030' />"],  
+
+"windows":["#windows1##windows2##windows3##windows4##windows5##windows6##windows7##windows8##windows9##windows10##windows11##windows12##windows13##windows14##windows15##windows16##windows17#"],
+
+"back":["<circle cx='200' cy='200' r='200' fill='\\#000000' />"],
+"shape1":["<circle cx='75' cy='75' r='450' fill='url(\\#grad1)' />"],
+"shape2":["<circle cx='325' cy='325' r='450' fill='url(\\#grad2)' />"],
+"shape3":["<circle cx='50' cy='350' r='450' fill='url(\\#grad3)' />"],
+"shape4":["<circle cx='375' cy='25' r='450' fill='url(\\#grad4)' />"],
+
+"scale":["-1","1"],
+"win":["\\#090909","\\#050505","\\#000000","\\#ebb957","\\#b87d09"],
+"focal":["60","55","50","50","50","45","40"],
+"rot":["0","0","0","0","5","10","15","20","25","30","35","40","45","0","0","0","0","-5","-10","-15","-20","-25","-30","-35","-40","-45"],
+"xpivot":["400","450","500","550","600"],
+"ypivot":["0","50","100","150","200"],
+"color": ["#hex#","#hex#","#hex#","#hex#","#hex#","#hex#"],
+"digit":["0","1","2","3","4","5","6","7","8","9","a","b","c","d","e","f"],
+"letter":["a","b","c","d"],
+"pastelHex": ["\\##letter##digit##letter##digit##letter##digit#"],
+"hex":["\\##digit##digit##digit##digit##digit##digit#"],
+"bldgTop":["125","180","203","220","245"],
+"bldgTop2":["125","180","260","303","323","375","260","303","323","375"],
+"plus":["0","0","0","0","0","5","10","15","20","25","30","35"],
+"numX":["10","20","30","40","50","60","70","80","90","100","110","120","130","140","150","160","170","180","190","200","210","220","230","240","250","260","270","280","290","300","310","320","330","340","350","360","370","380","390","400","410","420","430","440","450","460","470","480","490","500","510","520","530","540","550","560","570","580","590","600","610","620","630","640","650","660","670","680","690","700","710","720","730","740","750","760","770","780","790","800","810","820","830","840","850","860","870","880","890","900","910","920","930","940","950","960","970","980","990"],
+"numY":["10","20","30","40","50","60","70","80","90","100","110","120","130","140","150","160","170","180","190","200","210","220","230","240","250","260","270","280","290","300","310","320","330","340","350"],
+"numXFeat":["1","10","20","30","40","50","60","70","80","90","100","110","120","130","140","150","160","170","180","190","200","210","220","230","240","250","260","270","280","290","300","310","320","330","340","350","360","370","380","390","400","410","420","430","440","450","460","470","480","490","500","510","520","530","540","550","560","570","580","590","600","610","620","630","640","650","660","670","680","690","700","710","720","730","740","750","760","770","780","790","800","810","820","830","840","850","860","870","880","890","900","910"],
+"numYFeat":["1","10","20","30","40","50","60","70","80"],
+"randomBits":["#plane#","#blimp#","#plane#","#blimp#","#plane#","#blimp#","#ufo#","","","","","","","","","","","",""],
+
+
+"plane":["<ellipse cx='50' cy='50' rx='45' ry='5' fill='\\#192530'/><ellipse cx='75' cy='51' rx='15' ry='4' fill='\\#192530' transform='rotate(-1.5)'/><path stroke='\\#192530' stroke-width='3' fill='\\#192530' d='M16 50 l-8 -10 h-2 l3 10 '/><path stroke='\\#192530' stroke-width='2' d='M13 52 l-8 2'/><path stroke='\\#091520' stroke-width='2' fill='\\#192530' d='M70 53 l-40 8 l12 -8  z'/><rect x='40' y ='48' width='2' height='2' fill='\\#b87d09' /><rect x='45' y ='48' width='2' height='2' fill='\\#ebb957' /><rect x='50' y ='48' width='2' height='2' fill='\\#b87d09' /><rect x='55' y ='48' width='2' height='2' fill='\\#ebb957' /><rect x='60' y ='48' width='2' height='2' fill='\\#b87d09' /><rect x='65' y ='48' width='2' height='2' fill='\\#ebb957' /><rect x='70' y ='48' width='2' height='2' fill='\\#b87d09' /><path stroke='\\#ebb957' stroke-width='1' stroke-linecap='round' d='M89 47 l3 1'/>"],
+
+"blimp":["<ellipse cx='52' cy='45' rx='45' ry='17' fill='\\#242131'/><path stroke='\\#242131' stroke-width='4' fill='\\#242131' d='M38 60 l6 7 h17 l6 -7 z'/><path stroke='\\#242131' stroke-width='2' stroke-linecap='round' d='M7 45 h-5'/><path stroke='\\#242131' stroke-width='1' fill='\\#242131' stroke-linecap='round' d='M14 50  A 2 2, 0, 0, 0, 2 31 '/><path stroke='\\#242131' stroke-width='1' fill='\\#242131' stroke-linecap='round' d='M14 38  A 2 2, 0, 0, 1, 2 59 '/><rect x='44' y ='63' width='2' height='3' fill='\\#ebb957' /><rect x='51' y ='63' width='2' height='3' fill='\\#b87d09' /><rect x='58' y ='63' width='2' height='3' fill='\\#ebb957' /><path stroke='\\#ebb957' stroke-width='1' stroke-linecap='round' d='M66 63 l-2 3'/> "],
+
+"ufo":["<circle cx='50' cy='50' r='20' fill='\\#202523' /><ellipse cx='50' cy='57' rx='40' ry='10' fill='\\#202523'/> <path stroke='\\#202523' stroke-width='3' d='M45 65 L30 80 M55 65 L70 80' /><circle cx='20' cy='57' r='2' fill='\\#2fbd2d' /><circle cx='25' cy='58' r='2' fill='#color#' /><circle cx='30' cy='59' r='2' fill='\\#189e16' /><circle cx='43' cy='60' r='2' fill='#color#' /><circle cx='50' cy='61' r='2' fill='\\#2fbd2d' /><circle cx='57' cy='60' r='2' fill='#color#' /><circle cx='70' cy='59' r='2' fill='\\#189e16' /><circle cx='75' cy='58' r='2' fill='#color#' /><circle cx='80' cy='57' r='2' fill='\\#2fbd2d' />"],
+
+
+"dots":["<circle cx='#numX#' cy='#numY#' r='1' fill='#color#'/>","<circle cx='#numX#' cy='#numY#' r='1' fill='#pastelHex#'/>","<circle cx='#numX#' cy='#numY#' r='1' fill='#pastelHex#'/>","<circle cx='#numX#' cy='#numY#' r='1' fill='#pastelHex#'/>","<circle cx='#numX#' cy='#numY#' r='1' fill='#pastelHex#'/>","<circle cx='#numX#' cy='#numY#' r='1' fill='#pastelHex#'/>","<circle cx='#numX#' cy='#numY#' r='2' fill='#pastelHex#'/>","<ellipse cx='#numX#' cy='#numY#' rx='2' ry='1' fill='#pastelHex#'/>","<ellipse cx='#numX#' cy='#numY#' rx='1' ry='2' fill='#pastelHex#'/>" ],
+ 
+
+"nightGrad":["<linearGradient id='nGrad' x1='0%' x2='0%' y1='33%' y2='100%'   > <stop offset='20%' style='stop-color:\\#00000; stop-opacity:.6' /><stop offset='100%' style='stop-color:#color#; stop-opacity:.3'/> </linearGradient>"],
+
+"radGrad1":["<radialGradient id='grad1' cx='50%' cy='50%' r='50%' fx='#focal#%' fy='#focal#%'> <stop offset='0%' style='stop-color:#color#; stop-opacity:1' /> <stop offset='100%' style='stop-color:#pastelHex#; stop-opacity:0' /></radialGradient>"],
+"radGrad2":["<radialGradient id='grad2' cx='50%' cy='50%' r='50%' fx='#focal#%' fy='#focal#%'> <stop offset='0%' style='stop-color:#color#; stop-opacity:.8' /> <stop offset='100%' style='stop-color:#pastelHex#; stop-opacity:0' /></radialGradient>"],
+"radGrad3":["<radialGradient id='grad3' cx='50%' cy='50%' r='50%' fx='#focal#%' fy='#focal#%'> <stop offset='0%' style='stop-color:#color#; stop-opacity:.8' /> <stop offset='100%' style='stop-color:#pastelHex#; stop-opacity:0' /></radialGradient>"],
+"radGrad4":["<radialGradient id='grad4' cx='50%' cy='50%' r='50%' fx='#focal#%' fy='#focal#%'> <stop offset='0%' style='stop-color:#color#; stop-opacity:.8' /> <stop offset='100%' style='stop-color:#pastelHex#; stop-opacity:0' /></radialGradient>"],
+
+"windows1":["<rect x='4' y='5' width='4' height='4' fill='#win#'/><rect x='14' y='5' width='4' height='4' fill='#win#'/><rect x='23' y='5' width='4' height='4' fill='#win#'/><rect x='32' y='5' width='4' height='4' fill='#win#'/><rect x='41' y='5' width='4' height='4' fill='#win#'/>"],
+"windows2":["<rect x='4' y='25' width='4' height='4' fill='#win#'/><rect x='14' y='25' width='4' height='4' fill='#win#'/><rect x='23' y='25' width='4' height='4' fill='#win#'/><rect x='32' y='25' width='4' height='4' fill='#win#'/><rect x='41' y='25' width='4' height='4' fill='#win#'/>"],
+"windows3":["<rect x='4' y='45' width='4' height='4' fill='#win#'/><rect x='14' y='45' width='4' height='4' fill='#win#'/><rect x='23' y='45' width='4' height='4' fill='#win#'/><rect x='32' y='45' width='4' height='4' fill='#win#'/><rect x='41' y='45' width='4' height='4' fill='#win#'/>"],
+"windows4":["<rect x='4' y='65' width='4' height='4' fill='#win#'/><rect x='14' y='65' width='4' height='4' fill='#win#'/><rect x='23' y='65' width='4' height='4' fill='#win#'/><rect x='32' y='65' width='4' height='4' fill='#win#'/><rect x='41' y='65' width='4' height='4' fill='#win#'/>"],
+"windows5":["<rect x='4' y='85' width='4' height='4' fill='#win#'/><rect x='14' y='85' width='4' height='4' fill='#win#'/><rect x='23' y='85' width='4' height='4' fill='#win#'/><rect x='32' y='85' width='4' height='4' fill='#win#'/><rect x='41' y='85' width='4' height='4' fill='#win#'/>"],
+"windows6":["<rect x='4' y='105' width='4' height='4' fill='#win#'/><rect x='14' y='105' width='4' height='4' fill='#win#'/><rect x='23' y='105' width='4' height='4' fill='#win#'/><rect x='32' y='105' width='4' height='4' fill='#win#'/><rect x='41' y='105' width='4' height='4' fill='#win#'/>"],
+"windows7":["<rect x='4' y='125' width='4' height='4' fill='#win#'/><rect x='14' y='125' width='4' height='4' fill='#win#'/><rect x='23' y='125' width='4' height='4' fill='#win#'/><rect x='32' y='125' width='4' height='4' fill='#win#'/><rect x='41' y='125' width='4' height='4' fill='#win#'/>"],
+"windows8":["<rect x='4' y='145' width='4' height='4' fill='#win#'/><rect x='14' y='145' width='4' height='4' fill='#win#'/><rect x='23' y='145' width='4' height='4' fill='#win#'/><rect x='32' y='145' width='4' height='4' fill='#win#'/><rect x='41' y='145' width='4' height='4' fill='#win#'/>"],
+"windows9":["<rect x='4' y='165' width='4' height='4' fill='#win#'/><rect x='14' y='165' width='4' height='4' fill='#win#'/><rect x='23' y='165' width='4' height='4' fill='#win#'/><rect x='32' y='165' width='4' height='4' fill='#win#'/><rect x='41' y='165' width='4' height='4' fill='#win#'/>"],
+"windows10":["<rect x='4' y='185' width='4' height='4' fill='#win#'/><rect x='14' y='185' width='4' height='4' fill='#win#'/><rect x='23' y='185' width='4' height='4' fill='#win#'/><rect x='32' y='185' width='4' height='4' fill='#win#'/><rect x='41' y='185' width='4' height='4' fill='#win#'/>"],
+"windows11":["<rect x='4' y='205' width='4' height='4' fill='#win#'/><rect x='14' y='205' width='4' height='4' fill='#win#'/><rect x='23' y='205' width='4' height='4' fill='#win#'/><rect x='32' y='205' width='4' height='4' fill='#win#'/><rect x='41' y='205' width='4' height='4' fill='#win#'/>"],
+"windows12":["<rect x='4' y='225' width='4' height='4' fill='#win#'/><rect x='14' y='225' width='4' height='4' fill='#win#'/><rect x='23' y='225' width='4' height='4' fill='#win#'/><rect x='32' y='225' width='4' height='4' fill='#win#'/><rect x='41' y='225' width='4' height='4' fill='#win#'/>"],
+"windows13":["<rect x='4' y='245' width='4' height='4' fill='#win#'/><rect x='14' y='245' width='4' height='4' fill='#win#'/><rect x='23' y='245' width='4' height='4' fill='#win#'/><rect x='32' y='245' width='4' height='4' fill='#win#'/><rect x='41' y='245' width='4' height='4' fill='#win#'/>"],
+"windows14":["<rect x='4' y='265' width='4' height='4' fill='#win#'/><rect x='14' y='265' width='4' height='4' fill='#win#'/><rect x='23' y='265' width='4' height='4' fill='#win#'/><rect x='32' y='265' width='4' height='4' fill='#win#'/><rect x='41' y='265' width='4' height='4' fill='#win#'/>"],
+"windows15":["<rect x='4' y='285' width='4' height='4' fill='#win#'/><rect x='14' y='285' width='4' height='4' fill='#win#'/><rect x='23' y='285' width='4' height='4' fill='#win#'/><rect x='32' y='285' width='4' height='4' fill='#win#'/><rect x='41' y='285' width='4' height='4' fill='#win#'/>"],
+"windows16":["<rect x='4' y='305' width='4' height='4' fill='#win#'/><rect x='14' y='305' width='4' height='4' fill='#win#'/><rect x='23' y='305' width='4' height='4' fill='#win#'/><rect x='32' y='305' width='4' height='4' fill='#win#'/><rect x='41' y='305' width='4' height='4' fill='#win#'/>"],
+"windows17":["<rect x='4' y='325' width='4' height='4' fill='#win#'/><rect x='14' y='325' width='4' height='4' fill='#win#'/><rect x='23' y='325' width='4' height='4' fill='#win#'/><rect x='32' y='325' width='4' height='4' fill='#win#'/><rect x='41' y='325' width='4' height='4' fill='#win#'/>"]
+
+
+}
+

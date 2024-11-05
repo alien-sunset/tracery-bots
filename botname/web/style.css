@@ -1,0 +1,49 @@
+a:link {
+  color: #C587E5
+}
+
+a:visited {
+  color: #38faac
+}
+
+h1 {color: #179190;
+  font-size: 3.5em;
+  line-height: 1;}
+h2 {color: #38faac;
+  font-size: 2.25em;
+  line-height: .75;}
+h3 {color: #179190;
+  font-size: 2em;
+  line-height: .75;}
+h4 {color: #38faac;
+  font-size: 1.75em;
+  line-height: .75;}
+
+p {color: #52B8A1;
+  font-size: 1.25em;
+  line-height: 1.3;}
+  
+ul {color: #179190;
+  font-size: 1.15em;}
+
+
+body {
+  font-family: Garamond;
+  color: #179190;
+  margin: 2% auto;
+  max-width: 66%;
+  padding: 0 1%;
+  background: linear-gradient(-45deg, #160528, #230A42, #421C55, #230A42, #160528);
+  background-size: 400%, 400%;
+  animation: slidein 120s linear infinite alternate;
+}
+
+@keyframes slidein {
+  0% {
+    background-position: 0, 50%;
+  }
+
+  100% {
+    background-position: 100%, 50%;
+  }
+}
