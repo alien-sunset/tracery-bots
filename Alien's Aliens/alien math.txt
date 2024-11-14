@@ -1,0 +1,61 @@
+alien math:
+
+pixels x 8 = width/height of alien
++ 2pix buffer on each side
+
+pixel placement:
+1: 2   2: 10   3: 18   4: 26   5: 34   6: 42   7: 50   8: 58
+
+
+8 pix buffer on each side of main grid
+16 pix buffer between aliens
+
+
+8x8 aliens:
+
+8 + 68 + 16  | 68 + 16 | 68 + 8
+     92      |   84    |   76
+
+grid size	 
+2 x 2 : 168
+4 X 4 : 336
+6 x 6 : 504
+3	  : 252
+
+alien placement:
+1st: 8   2nd: 92   3rd: 176   4th: 260   5th: 344   6th: 428
+
+
+7x7 aliens:
+
+8 + 60 + 16  | 60 + 16 | 60 + 8
+     84      |   76    |   68
+
+grid size		 
+2 x 2 : 152
+4 X 4 : 304
+6 x 6 : 456
+3	  : 228
+
+alien placement:
+1st: 8   2nd: 84   3rd: 160   4th: 236   5th: 312   6th: 388
+
+
+6x6 aliens:
+
+8 + 52 + 16  | 52 + 16 | 52 + 8
+     76      |   68    |   60
+
+grid size		 
+2 x 2 : 136
+4 X 4 : 272
+6 x 6 : 408
+3	  : 204
+
+alien placement:
+1st: 8   2nd: 76   3rd: 144   4th: 212   5th: 280   6th: 348
+
+
+
+
+	 

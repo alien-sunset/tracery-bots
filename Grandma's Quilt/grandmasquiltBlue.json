@@ -1,0 +1,336 @@
+{
+"Bot home": ["https://bsky.app/profile/grandmas-quilt.bsky.social"],
+"Bot maker": ["https://bsky.app/profile/aliensunset.bsky.social","https://dice.camp/@Alien_Sunset", "https://github.com/alien-sunset"],
+"Bot source":["https://bluebotsdonequick.com/"],
+"All the Bots": ["https://bsky.app/profile/color-palette-bot.bsky.social","https://bsky.app/profile/soft-skylines.bsky.social","https://bsky.app/profile/remedios-varo-bot.bsky.social","https://bsky.app/profile/grandmas-quilt.bsky.social","https://bsky.app/profile/weird-prompts.bsky.social","https://bsky.app/profile/aliensaliens.bsky.social","https://botsin.space/@Color_Palette_Bot", "https://botsin.space/@NumbersBot", "https://botsin.space/@GrandmasQuilt", "https://botsin.space/@Soft_Skylines", "https://botsin.space/@Remedios_Varo_Bot"],
+"About my bots":["https://alien-sunset.neocities.org/bots/Bots"],
+
+"nameSource": ["names below pulled from this amazing list: https://github.com/aruljohn/popular-baby-names","plus a feiw friends"],
+
+
+"origin": ["Grandma's quilt \\# #number##number##number##number#, made for #name#, age #number#:\n\n  \\#generativeArt \\#creativeCoding #svg#"],
+ 
+"color": ["#hex#","#hex#","#hex#","#pastelHex#","#hex#","#hex#","#hex#"],
+"box": ["▣","▩","▤","▥","▦","▧","▨","▣","▩","▤","▥","▦","▧","▨","▣"],
+"number": ["1","2","3","4","5","6","7","8","9","0"],
+"digit": ["0","1","2","3","4","5","6","7","8","9","a","b","c","d","e","f"],
+"letter": ["a","b","c","d","e"],
+"pastelHex": ["\\##letter##digit##letter##digit##letter##digit#"],
+"hex": ["\\##digit##digit##digit##digit##digit##digit#"],
+ 
+"gradType": ["#grad1#","#grad2#"],
+"bgcolor": ["\\#330000","\\#002100","\\#000033","\\#102100","\\#002110","\\#330020","\\#201000","\\#001020","\\#200033","\\#000000","\\#000000","\\#000000"],
+"gradStart": ["95","75","50","25","5"],
+"gradEnd": ["95","75","50","25","5"],
+"focal": ["66","50","50","50","33"],
+"rad": ["75","50","50","50","25"],
+"rot": ["0","0","0","0","5","10","15","20","25","30","35","40","45","0","0","0","0","-5","-10","-15","-20","-25","-30","-35","-40","-45"],
+"skew": ["0","0","5","10","15","0","0","-5","-10","-15"],
+"trans": ["0","0","0","0","0","0",".1","-.1",".2","-.2",".15","-.15",".25","-.25",".3","-.3"],
+"1stX":["-5"],
+"2ndX":["35"],
+"3rdX":["75"],
+"4thX":["115"],
+"5thX":["155"],
+"6thX":["195"],
+"7thX":["235"],
+"8thX":["275"],
+"9thX":["315"],
+"10thX":["355"],
+
+"1stY":["33"],
+"2ndY":["73"],
+"3rdY":["113"],
+"4thY":["153"],
+"5thY":["193"],
+"6thY":["233"],
+"7thY":["273"],
+"8thY":["313"],
+"9thY":["353"],
+"10thY":["393"],
+"11thY":["433"],
+"12thY":["473"],
+"13thY":["513"],
+"14thY":["553"],
+"15thY":["593"],
+
+
+"svg": [
+"{svg <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width='400' height='600'>#gradType#<rect x='0' y='0' style='fill:url(\\#grad)' width='400' height='600'/>#row1##row2##row3##row4##row5##row6##row7##row8##row9##row10##row11##row12##row13##row14##row15#</svg>}{alt a rectangle of multicolored squares with various fill patterns on a black background}"
+],
+
+
+"grad1": [
+"<defs><radialGradient id='grad' cx='50%' cy='50%' r='#rad#%' fx='#focal#%' fy='#focal#%' spreadMethod='reflect' gradientTransform='skewX(#skew#) skewY(#skew#) translate(#trans#, #trans#)'><stop offset='0%' stop-color='#bgcolor#' /><stop offset='50%' stop-color='\\#000000' /><stop offset='100%' stop-color='#bgcolor#' /></radialGradient></defs>"
+],
+"grad2": [
+"<defs><linearGradient id='grad' x1='#gradStart#%' x2='#gradEnd#%' y1='#gradStart#%' y2='#gradEnd#%' spreadMethod='reflect' gradientTransform='translate(#trans#, #trans#) rotate(#rot#)'><stop offset='0%' stop-color='#bgcolor#' /><stop offset='50%' stop-color='\\#000000' /><stop offset='100%' stop-color='#bgcolor#' /></linearGradient></defs>"
+],
+
+
+"row1": [
+"<text x='#1stX#' y='#1stY#' fill='#color#' font-size='51'>#box#</text><text x='#2ndX#' y='#1stY#' fill='#color#' font-size='51'>#box#</text><text x='#3rdX#' y='#1stY#' fill='#color#' font-size='51'>#box#</text><text x='#4thX#' y='#1stY#' fill='#color#' font-size='51'>#box#</text><text x='#5thX#' y='#1stY#' fill='#color#' font-size='51'>#box#</text><text x='#6thX#' y='#1stY#' fill='#color#' font-size='51'>#box#</text><text x='#7thX#' y='#1stY#' fill='#color#' font-size='51'>#box#</text><text x='#8thX#' y='#1stY#' fill='#color#' font-size='51'>#box#</text><text x='#9thX#' y='#1stY#' fill='#color#' font-size='51'>#box#</text><text x='#10thX#' y='#1stY#' fill='#color#' font-size='51'>#box#</text>"
+],
+
+"row2": [
+"<text x='#1stX#' y='#2ndY#' fill='#color#' font-size='51'>#box#</text><text x='#2ndX#' y='#2ndY#' fill='#color#' font-size='51'>#box#</text><text x='#3rdX#' y='#2ndY#' fill='#color#' font-size='51'>#box#</text><text x='#4thX#' y='#2ndY#' fill='#color#' font-size='51'>#box#</text><text x='#5thX#' y='#2ndY#' fill='#color#' font-size='51'>#box#</text><text x='#6thX#' y='#2ndY#' fill='#color#' font-size='51'>#box#</text><text x='#7thX#' y='#2ndY#' fill='#color#' font-size='51'>#box#</text><text x='#8thX#' y='#2ndY#' fill='#color#' font-size='51'>#box#</text><text x='#9thX#' y='#2ndY#' fill='#color#' font-size='51'>#box#</text><text x='#10thX#' y='#2ndY#' fill='#color#' font-size='51'>#box#</text>"
+],
+
+"row3": [
+"<text x='#1stX#' y='#3rdY#' fill='#color#' font-size='51'>#box#</text><text x='#2ndX#' y='#3rdY#' fill='#color#' font-size='51'>#box#</text><text x='#3rdX#' y='#3rdY#' fill='#color#' font-size='51'>#box#</text><text x='#4thX#' y='#3rdY#' fill='#color#' font-size='51'>#box#</text><text x='#5thX#' y='#3rdY#' fill='#color#' font-size='51'>#box#</text><text x='#6thX#' y='#3rdY#' fill='#color#' font-size='51'>#box#</text><text x='#7thX#' y='#3rdY#' fill='#color#' font-size='51'>#box#</text><text x='#8thX#' y='#3rdY#' fill='#color#' font-size='51'>#box#</text><text x='#9thX#' y='#3rdY#' fill='#color#' font-size='51'>#box#</text><text x='#10thX#' y='#3rdY#' fill='#color#' font-size='51'>#box#</text>"
+],
+
+"row4": [
+"<text x='#1stX#' y='#4thY#' fill='#color#' font-size='51'>#box#</text><text x='#2ndX#' y='#4thY#' fill='#color#' font-size='51'>#box#</text><text x='#3rdX#' y='#4thY#' fill='#color#' font-size='51'>#box#</text><text x='#4thX#' y='#4thY#' fill='#color#' font-size='51'>#box#</text><text x='#5thX#' y='#4thY#' fill='#color#' font-size='51'>#box#</text><text x='#6thX#' y='#4thY#' fill='#color#' font-size='51'>#box#</text><text x='#7thX#' y='#4thY#' fill='#color#' font-size='51'>#box#</text><text x='#8thX#' y='#4thY#' fill='#color#' font-size='51'>#box#</text><text x='#9thX#' y='#4thY#' fill='#color#' font-size='51'>#box#</text><text x='#10thX#' y='#4thY#' fill='#color#' font-size='51'>#box#</text>"
+],
+
+"row5": [
+"<text x='#1stX#' y='#5thY#' fill='#color#' font-size='51'>#box#</text><text x='#2ndX#' y='#5thY#' fill='#color#' font-size='51'>#box#</text><text x='#3rdX#' y='#5thY#' fill='#color#' font-size='51'>#box#</text><text x='#4thX#' y='#5thY#' fill='#color#' font-size='51'>#box#</text><text x='#5thX#' y='#5thY#' fill='#color#' font-size='51'>#box#</text><text x='#6thX#' y='#5thY#' fill='#color#' font-size='51'>#box#</text><text x='#7thX#' y='#5thY#' fill='#color#' font-size='51'>#box#</text><text x='#8thX#' y='#5thY#' fill='#color#' font-size='51'>#box#</text><text x='#9thX#' y='#5thY#' fill='#color#' font-size='51'>#box#</text><text x='#10thX#' y='#5thY#' fill='#color#' font-size='51'>#box#</text>"
+],
+
+"row6": [
+"<text x='#1stX#' y='#6thY#' fill='#color#' font-size='51'>#box#</text><text x='#2ndX#' y='#6thY#' fill='#color#' font-size='51'>#box#</text><text x='#3rdX#' y='#6thY#' fill='#color#' font-size='51'>#box#</text><text x='#4thX#' y='#6thY#' fill='#color#' font-size='51'>#box#</text><text x='#5thX#' y='#6thY#' fill='#color#' font-size='51'>#box#</text><text x='#6thX#' y='#6thY#' fill='#color#' font-size='51'>#box#</text><text x='#7thX#' y='#6thY#' fill='#color#' font-size='51'>#box#</text><text x='#8thX#' y='#6thY#' fill='#color#' font-size='51'>#box#</text><text x='#9thX#' y='#6thY#' fill='#color#' font-size='51'>#box#</text><text x='#10thX#' y='#6thY#' fill='#color#' font-size='51'>#box#</text>"
+],
+
+"row7": [
+"<text x='#1stX#' y='#7thY#' fill='#color#' font-size='51'>#box#</text><text x='#2ndX#' y='#7thY#' fill='#color#' font-size='51'>#box#</text><text x='#3rdX#' y='#7thY#' fill='#color#' font-size='51'>#box#</text><text x='#4thX#' y='#7thY#' fill='#color#' font-size='51'>#box#</text><text x='#5thX#' y='#7thY#' fill='#color#' font-size='51'>#box#</text><text x='#6thX#' y='#7thY#' fill='#color#' font-size='51'>#box#</text><text x='#7thX#' y='#7thY#' fill='#color#' font-size='51'>#box#</text><text x='#8thX#' y='#7thY#' fill='#color#' font-size='51'>#box#</text><text x='#9thX#' y='#7thY#' fill='#color#' font-size='51'>#box#</text><text x='#10thX#' y='#7thY#' fill='#color#' font-size='51'>#box#</text>"
+],
+
+"row8": [
+"<text x='#1stX#' y='#8thY#' fill='#color#' font-size='51'>#box#</text><text x='#2ndX#' y='#8thY#' fill='#color#' font-size='51'>#box#</text><text x='#3rdX#' y='#8thY#' fill='#color#' font-size='51'>#box#</text><text x='#4thX#' y='#8thY#' fill='#color#' font-size='51'>#box#</text><text x='#5thX#' y='#8thY#' fill='#color#' font-size='51'>#box#</text><text x='#6thX#' y='#8thY#' fill='#color#' font-size='51'>#box#</text><text x='#7thX#' y='#8thY#' fill='#color#' font-size='51'>#box#</text><text x='#8thX#' y='#8thY#' fill='#color#' font-size='51'>#box#</text><text x='#9thX#' y='#8thY#' fill='#color#' font-size='51'>#box#</text><text x='#10thX#' y='#8thY#' fill='#color#' font-size='51'>#box#</text>"
+],
+
+"row9": [
+"<text x='#1stX#' y='#9thY#' fill='#color#' font-size='51'>#box#</text><text x='#2ndX#' y='#9thY#' fill='#color#' font-size='51'>#box#</text><text x='#3rdX#' y='#9thY#' fill='#color#' font-size='51'>#box#</text><text x='#4thX#' y='#9thY#' fill='#color#' font-size='51'>#box#</text><text x='#5thX#' y='#9thY#' fill='#color#' font-size='51'>#box#</text><text x='#6thX#' y='#9thY#' fill='#color#' font-size='51'>#box#</text><text x='#7thX#' y='#9thY#' fill='#color#' font-size='51'>#box#</text><text x='#8thX#' y='#9thY#' fill='#color#' font-size='51'>#box#</text><text x='#9thX#' y='#9thY#' fill='#color#' font-size='51'>#box#</text><text x='#10thX#' y='#9thY#' fill='#color#' font-size='51'>#box#</text>"
+],
+
+"row10": [
+"<text x='#1stX#' y='#10thY#' fill='#color#' font-size='51'>#box#</text><text x='#2ndX#' y='#10thY#' fill='#color#' font-size='51'>#box#</text><text x='#3rdX#' y='#10thY#' fill='#color#' font-size='51'>#box#</text><text x='#4thX#' y='#10thY#' fill='#color#' font-size='51'>#box#</text><text x='#5thX#' y='#10thY#' fill='#color#' font-size='51'>#box#</text><text x='#6thX#' y='#10thY#' fill='#color#' font-size='51'>#box#</text><text x='#7thX#' y='#10thY#' fill='#color#' font-size='51'>#box#</text><text x='#8thX#' y='#10thY#' fill='#color#' font-size='51'>#box#</text><text x='#9thX#' y='#10thY#' fill='#color#' font-size='51'>#box#</text><text x='#10thX#' y='#10thY#' fill='#color#' font-size='51'>#box#</text>"
+],
+
+"row11": [
+"<text x='#1stX#' y='#11thY#' fill='#color#' font-size='51'>#box#</text><text x='#2ndX#' y='#11thY#' fill='#color#' font-size='51'>#box#</text><text x='#3rdX#' y='#11thY#' fill='#color#' font-size='51'>#box#</text><text x='#4thX#' y='#11thY#' fill='#color#' font-size='51'>#box#</text><text x='#5thX#' y='#11thY#' fill='#color#' font-size='51'>#box#</text><text x='#6thX#' y='#11thY#' fill='#color#' font-size='51'>#box#</text><text x='#7thX#' y='#11thY#' fill='#color#' font-size='51'>#box#</text><text x='#8thX#' y='#11thY#' fill='#color#' font-size='51'>#box#</text><text x='#9thX#' y='#11thY#' fill='#color#' font-size='51'>#box#</text><text x='#10thX#' y='#11thY#' fill='#color#' font-size='51'>#box#</text>"
+],
+
+"row12": [
+"<text x='#1stX#' y='#12thY#' fill='#color#' font-size='51'>#box#</text><text x='#2ndX#' y='#12thY#' fill='#color#' font-size='51'>#box#</text><text x='#3rdX#' y='#12thY#' fill='#color#' font-size='51'>#box#</text><text x='#4thX#' y='#12thY#' fill='#color#' font-size='51'>#box#</text><text x='#5thX#' y='#12thY#' fill='#color#' font-size='51'>#box#</text><text x='#6thX#' y='#12thY#' fill='#color#' font-size='51'>#box#</text><text x='#7thX#' y='#12thY#' fill='#color#' font-size='51'>#box#</text><text x='#8thX#' y='#12thY#' fill='#color#' font-size='51'>#box#</text><text x='#9thX#' y='#12thY#' fill='#color#' font-size='51'>#box#</text><text x='#10thX#' y='#12thY#' fill='#color#' font-size='51'>#box#</text>"
+],
+
+"row13": [
+"<text x='#1stX#' y='#13thY#' fill='#color#' font-size='51'>#box#</text><text x='#2ndX#' y='#13thY#' fill='#color#' font-size='51'>#box#</text><text x='#3rdX#' y='#13thY#' fill='#color#' font-size='51'>#box#</text><text x='#4thX#' y='#13thY#' fill='#color#' font-size='51'>#box#</text><text x='#5thX#' y='#13thY#' fill='#color#' font-size='51'>#box#</text><text x='#6thX#' y='#13thY#' fill='#color#' font-size='51'>#box#</text><text x='#7thX#' y='#13thY#' fill='#color#' font-size='51'>#box#</text><text x='#8thX#' y='#13thY#' fill='#color#' font-size='51'>#box#</text><text x='#9thX#' y='#13thY#' fill='#color#' font-size='51'>#box#</text><text x='#10thX#' y='#13thY#' fill='#color#' font-size='51'>#box#</text>"
+],
+
+"row14": [
+"<text x='#1stX#' y='#14thY#' fill='#color#' font-size='51'>#box#</text><text x='#2ndX#' y='#14thY#' fill='#color#' font-size='51'>#box#</text><text x='#3rdX#' y='#14thY#' fill='#color#' font-size='51'>#box#</text><text x='#4thX#' y='#14thY#' fill='#color#' font-size='51'>#box#</text><text x='#5thX#' y='#14thY#' fill='#color#' font-size='51'>#box#</text><text x='#6thX#' y='#14thY#' fill='#color#' font-size='51'>#box#</text><text x='#7thX#' y='#14thY#' fill='#color#' font-size='51'>#box#</text><text x='#8thX#' y='#14thY#' fill='#color#' font-size='51'>#box#</text><text x='#9thX#' y='#14thY#' fill='#color#' font-size='51'>#box#</text><text x='#10thX#' y='#14thY#' fill='#color#' font-size='51'>#box#</text>"
+],
+
+"row15": [
+"<text x='#1stX#' y='#15thY#' fill='#color#' font-size='51'>#box#</text><text x='#2ndX#' y='#15thY#' fill='#color#' font-size='51'>#box#</text><text x='#3rdX#' y='#15thY#' fill='#color#' font-size='51'>#box#</text><text x='#4thX#' y='#15thY#' fill='#color#' font-size='51'>#box#</text><text x='#5thX#' y='#15thY#' fill='#color#' font-size='51'>#box#</text><text x='#6thX#' y='#15thY#' fill='#color#' font-size='51'>#box#</text><text x='#7thX#' y='#15thY#' fill='#color#' font-size='51'>#box#</text><text x='#8thX#' y='#15thY#' fill='#color#' font-size='51'>#box#</text><text x='#9thX#' y='#15thY#' fill='#color#' font-size='51'>#box#</text><text x='#10thX#' y='#15thY#' fill='#color#' font-size='51'>#box#</text>"
+],
+
+"name": [
+"John",
+"William",
+"James",
+"Charles",
+"George",
+"Frank",
+"Joseph",
+"Thomas",
+"Henry",
+"Robert",
+"Edward",
+"Harry",
+"Walter",
+"Arthur",
+"Fred",
+"Albert",
+"Samuel",
+"David",
+"Louis",
+"Joe",
+"Charlie",
+"Clarence",
+"Richard",
+"Andrew",
+"Daniel",
+"Ernest",
+"Will",
+"Jesse",
+"Oscar",
+"Lewis",
+"Peter",
+"Benjamin",
+"Frederick",
+"Willie",
+"Alfred",
+"Sam",
+"Roy",
+"Herbert",
+"Jacob",
+"Tom",
+"Elmer",
+"Carl",
+"Lee",
+"Howard",
+"Martin",
+"Michael",
+"Bert",
+"Herman",
+"Jim",
+"Francis",
+"Mary",
+"Anna",
+"Emma",
+"Elizabeth",
+"Minnie",
+"Margaret",
+"Ida",
+"Alice",
+"Bertha",
+"Sarah",
+"Annie",
+"Clara",
+"Ella",
+"Florence",
+"Cora",
+"Martha",
+"Laura",
+"Nellie",
+"Grace",
+"Carrie",
+"Maude",
+"Mabel",
+"Bessie",
+"Jennie",
+"Gertrude",
+"Julia",
+"Hattie",
+"Edith",
+"Mattie",
+"Rose",
+"Catherine",
+"Lillian",
+"Ada",
+"Lillie",
+"Helen",
+"Jessie",
+"Louise",
+"Ethel",
+"Lula",
+"Myrtle",
+"Eva",
+"Frances",
+"Lena",
+"Lucy",
+"Edna",
+"Maggie",
+"Pearl",
+"Daisy",
+"Fannie",
+"Josephine",
+"Michael",
+"Christopher",
+"Matthew",
+"Jason",
+"David",
+"Joshua",
+"James",
+"John",
+"Robert",
+"Daniel",
+"Joseph",
+"Justin",
+"Ryan",
+"Brian",
+"William",
+"Jonathan",
+"Eric",
+"Andrew",
+"Brandon",
+"Adam",
+"Nicholas",
+"Jeremy",
+"Anthony",
+"Timothy",
+"Kevin",
+"Thomas",
+"Richard",
+"Steven",
+"Jeffrey",
+"Aaron",
+"Charles",
+"Benjamin",
+"Mark",
+"Scott",
+"Paul",
+"Nathan",
+"Jesse",
+"Patrick",
+"Stephen",
+"Travis",
+"Kenneth",
+"Dustin",
+"Jacob",
+"Sean",
+"Jose",
+"Gregory",
+"Chad",
+"Bryan",
+"Shawn",
+"Bradley",
+"Jennifer",
+"Jessica",
+"Amanda",
+"Sarah",
+"Melissa",
+"Amy",
+"Nicole",
+"Stephanie",
+"Elizabeth",
+"Heather",
+"Michelle",
+"Rebecca",
+"Kimberly",
+"Tiffany",
+"Angela",
+"Crystal",
+"Christina",
+"Lisa",
+"Erin",
+"Amber",
+"Laura",
+"Rachel",
+"Kelly",
+"Andrea",
+"April",
+"Sara",
+"Mary",
+"Jamie",
+"Emily",
+"Danielle",
+"Kristin",
+"Shannon",
+"Megan",
+"Ashley",
+"Lauren",
+"Erica",
+"Julie",
+"Kristen",
+"Katherine",
+"Maria",
+"Brandy",
+"Christine",
+"Courtney",
+"Katie",
+"Tara",
+"Alicia",
+"Lindsay",
+"Kathryn",
+"Monica",
+"Brandi",
+"Epidiah",
+"Willa",
+"Abigail"
+]
+}
