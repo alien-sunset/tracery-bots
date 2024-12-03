@@ -30,10 +30,10 @@
 
 "About my bots": ["https://alien-sunset.neocities.org/bots/Bots"],
 
-"nameSource": ["names below pulled from this amazing list: https://github.com/aruljohn/popular-baby-names","plus a feiw friends"],
+"nameSource": ["names below pulled from this amazing list: https://github.com/aruljohn/popular-baby-names","plus a fiew friends"],
 
 
-"origin": ["Grandma's quilt \\# #number##number##number##number#, made for #name#, age #number#:\n\n  \\#generativeArt \\#creativeCoding #svg#"],
+"origin": ["Grandma's quilt \\# #number##number##number##number#, made for #name#, age #number#:\n\n  \\#generativeArt #svg#"],
  
 "color": ["#hex#","#hex#","#hex#","#pastelHex#","#hex#","#hex#","#hex#"],
 "box": ["▣","▩","▤","▥","▦","▧","▨","▣","▩","▤","▥","▦","▧","▨","▣"],

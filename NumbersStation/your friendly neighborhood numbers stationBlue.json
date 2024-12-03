@@ -31,7 +31,7 @@
 "About my bots": ["https://alien-sunset.neocities.org/bots/Bots"],
 
 
-"origin":["#numberStation#\n\n\\#radio \\#numbers \\#noAI \\#creativeCoding"],
+"origin":["#numberStation#\n\n\\#radio \\#numbers"],
 
 "numberStation":["#pre# \n #string# #string# #string# \n #post#","#pre# \n #string# #string# #string# #string# \n #post#","#string# #string# #string# #string#"],
 

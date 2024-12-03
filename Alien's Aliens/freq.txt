@@ -1,0 +1,3 @@
+every 6 hours masto
+every 4 hours blue
+plus replies
