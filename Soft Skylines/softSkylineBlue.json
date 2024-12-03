@@ -1,12 +1,37 @@
 {
 "Bot home": ["https://bsky.app/profile/soft-skylines.bsky.social"],
-"Bot maker": ["https://bsky.app/profile/aliensunset.bsky.social","https://dice.camp/@Alien_Sunset", "https://github.com/alien-sunset"],
-"Bot source":["https://bluebotsdonequick.com/"],
-"All the Bots": ["https://bsky.app/profile/color-palette-bot.bsky.social","https://bsky.app/profile/soft-skylines.bsky.social","https://bsky.app/profile/remedios-varo-bot.bsky.social","https://bsky.app/profile/grandmas-quilt.bsky.social","https://bsky.app/profile/weird-prompts.bsky.social","https://bsky.app/profile/aliensaliens.bsky.social","https://botsin.space/@Color_Palette_Bot", "https://botsin.space/@NumbersBot", "https://botsin.space/@GrandmasQuilt", "https://botsin.space/@Soft_Skylines", "https://botsin.space/@Remedios_Varo_Bot"],
-"About my bots":["https://alien-sunset.neocities.org/bots/Bots"],
+"Bot source":["https://bluebotsdonequick.com/bots/soft-skylines.bsky.social"],
+"Bot maker": [
+    "https://dice.camp/@Alien_Sunset",
+    "https://bsky.app/profile/aliensunset.bsky.social",
+    "https://github.com/alien-sunset",
+    "https://linktr.ee/alien_sunset"
+],
+"All the Bots": [
+    "https://mastodon.art/@Color_Palette_Bot",
+    "https://beige.party/@GrandmasQuilt",
+    "https://beige.party/@Soft_Skylines",
+    "https://mastodon.social/@NumbersBot",
+    "https://mastodon.art/@Remedios_Varo_Bot",
+    "https://beige.party/@aliensaliens",
+    "https://beige.party/@weird_prompts",
+    "https://beige.party/@socksbot",
+    "https://beige.party/@tenprint",
+    "https://bsky.app/profile/color-palette-bot.bsky.social",
+    "https://bsky.app/profile/grandmas-quilt.bsky.social",
+    "https://bsky.app/profile/soft-skylines.bsky.social",
+    "https://bsky.app/profile/numbersbot.bsky.social",
+    "https://bsky.app/profile/remedios-varo-bot.bsky.social",
+    "https://bsky.app/profile/aliensaliens.bsky.social",
+    "https://bsky.app/profile/weird-prompts.bsky.social",
+    "https://bsky.app/profile/socksbot.bsky.social",
+    "https://bsky.app/profile/tenprint.bsky.social"
+],
+
+"About my bots": ["https://alien-sunset.neocities.org/bots/Bots"],
 
 
-"origin": ["\\#generativeArt \\#creativeCoding \\#noAI  #svg#"],
+"origin": ["\\#citySkyline \\#generativeArt \\#creativeCoding #svg#"],
 
 
 "svg":["{svg <svg width='1000' height='500' xmlns=\"http://www.w3.org/2000/svg\"> #defs# #night# #stars# #moon# #feature# #cityB# #cityF# #wall# </svg>  an svg drawing of a cityscape in front of a starry night sky with a large pastel moon hanging in the background}"],

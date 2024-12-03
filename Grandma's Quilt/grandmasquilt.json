@@ -1,9 +1,34 @@
 {
-"Bot home": ["https://botsin.space/@GrandmasQuilt"],
-"Bot maker": ["https://bsky.app/profile/aliensunset.bsky.social","https://dice.camp/@Alien_Sunset", "https://github.com/alien-sunset"],
-"Bot source":["https://cheapbotstootsweet.com/source/?url=https://botsin.space/@GrandmasQuilt"],
-"All the Bots": ["https://bsky.app/profile/color-palette-bot.bsky.social","https://bsky.app/profile/soft-skylines.bsky.social","https://bsky.app/profile/remedios-varo-bot.bsky.social","https://bsky.app/profile/grandmas-quilt.bsky.social","https://bsky.app/profile/weird-prompts.bsky.social","https://bsky.app/profile/aliensaliens.bsky.social","https://botsin.space/@Color_Palette_Bot", "https://botsin.space/@NumbersBot", "https://botsin.space/@GrandmasQuilt", "https://botsin.space/@Soft_Skylines", "https://botsin.space/@Remedios_Varo_Bot"],
-"About my bots":["https://alien-sunset.neocities.org/bots/Bots"],
+"Bot home": ["https://beige.party/@GrandmasQuilt"],
+"Bot source":["https://cheapbotstootsweet.com/source/?url=https://beige.party/@GrandmasQuilt"],
+"Bot maker": [
+    "https://dice.camp/@Alien_Sunset",
+    "https://bsky.app/profile/aliensunset.bsky.social",
+    "https://github.com/alien-sunset",
+    "https://linktr.ee/alien_sunset"
+],
+"All the Bots": [
+    "https://mastodon.art/@Color_Palette_Bot",
+    "https://beige.party/@GrandmasQuilt",
+    "https://beige.party/@Soft_Skylines",
+    "https://mastodon.social/@NumbersBot",
+    "https://mastodon.art/@Remedios_Varo_Bot",
+    "https://beige.party/@aliensaliens",
+    "https://beige.party/@weird_prompts",
+    "https://beige.party/@socksbot",
+    "https://beige.party/@tenprint",
+    "https://bsky.app/profile/color-palette-bot.bsky.social",
+    "https://bsky.app/profile/grandmas-quilt.bsky.social",
+    "https://bsky.app/profile/soft-skylines.bsky.social",
+    "https://bsky.app/profile/numbersbot.bsky.social",
+    "https://bsky.app/profile/remedios-varo-bot.bsky.social",
+    "https://bsky.app/profile/aliensaliens.bsky.social",
+    "https://bsky.app/profile/weird-prompts.bsky.social",
+    "https://bsky.app/profile/socksbot.bsky.social",
+    "https://bsky.app/profile/tenprint.bsky.social"
+],
+
+"About my bots": ["https://alien-sunset.neocities.org/bots/Bots"],
 
 "nameSource": ["names below pulled from this amazing list: https://github.com/aruljohn/popular-baby-names","plus a feiw friends"],
 
