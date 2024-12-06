@@ -38,6 +38,7 @@
     "https://beige.party/@weird_prompts",
     "https://beige.party/@socksbot",
     "https://beige.party/@tenprint",
+    "https://beige.party/@HitomezashiBot",
     "https://bsky.app/profile/color-palette-bot.bsky.social",
     "https://bsky.app/profile/grandmas-quilt.bsky.social",
     "https://bsky.app/profile/soft-skylines.bsky.social",
@@ -46,7 +47,8 @@
     "https://bsky.app/profile/aliensaliens.bsky.social",
     "https://bsky.app/profile/weird-prompts.bsky.social",
     "https://bsky.app/profile/socksbot.bsky.social",
-    "https://bsky.app/profile/tenprint.bsky.social"
+    "https://bsky.app/profile/tenprint.bsky.social",
+    "https://bsky.app/profile/hitomezashibot.bsky.social"
 ],
 
 "About my bots": ["https://alien-sunset.neocities.org/bots/Bots"],
@@ -433,7 +435,7 @@
 
 "Towards Aquarius / Hacia Acuario (1961) \n https://www.remediosvaro.art/paintings/hacia-acuario \n{img https://remedios-varo-art-images.s3.amazonaws.com/184-hacia-acuario.jpg}{alt By Aquarium / Hacia Acuario (1961) by Remedios Varo (1908 - 1963)} \nFeel free to help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
-"The Escape - (Third panel of the Triptych) / La Huida - (Tercer panel del Tríptico) (1961) \n https://www.remediosvaro.art/paintings/la-huida-tercer-panel-del-triptico \n{img }{alt The Escape - (Third panel of the Triptych) / La Huida - (Tercer panel del Tríptico) (1961) by Remedios Varo (1908 - 1963)} \nFeel free to help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
+"The Escape - (Third panel of the Triptych) / La Huida - (Tercer panel del Tríptico) (1961) \n https://www.remediosvaro.art/paintings/la-huida-tercer-panel-del-triptico \n{img https://remedios-varo-art-images.s3.amazonaws.com/242-la-huida---tercer-panel-del-tr%C3%ADptico.jpg}{alt The Escape - (Third panel of the Triptych) / La Huida - (Tercer panel del Tríptico) (1961) by Remedios Varo (1908 - 1963)} \nFeel free to help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
 "The Call / La Llamada (1961) \n https://www.remediosvaro.art/paintings/la-llamada-el-llamado \n{img https://remedios-varo-art-images.s3.amazonaws.com/195-la-llamada-el-llamado.jpg}{alt The Call / La Llamada (1961) by Remedios Varo (1908 - 1963)} \nFeel free to help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 

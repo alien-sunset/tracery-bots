@@ -1,0 +1,76 @@
+{
+"Bot home": ["https://bsky.app/profile/hitomezashibot.bsky.social"],
+"Bot source": ["https://bluebotsdonequick.com/bots/hitomezashibot.bsky.social"],
+"Bot maker": [
+    "https://dice.camp/@Alien_Sunset",
+    "https://bsky.app/profile/aliensunset.bsky.social",
+    "https://github.com/alien-sunset",
+    "https://linktr.ee/alien_sunset"
+],
+"All the Bots": [
+    "https://mastodon.art/@Color_Palette_Bot",
+    "https://beige.party/@GrandmasQuilt",
+    "https://beige.party/@Soft_Skylines",
+    "https://mastodon.social/@NumbersBot",
+    "https://mastodon.art/@Remedios_Varo_Bot",
+    "https://beige.party/@aliensaliens",
+    "https://beige.party/@weird_prompts",
+    "https://beige.party/@socksbot",
+    "https://beige.party/@tenprint",
+    "https://beige.party/@hitomezashibot",
+    "https://bsky.app/profile/color-palette-bot.bsky.social",
+    "https://bsky.app/profile/grandmas-quilt.bsky.social",
+    "https://bsky.app/profile/soft-skylines.bsky.social",
+    "https://bsky.app/profile/numbersbot.bsky.social",
+    "https://bsky.app/profile/remedios-varo-bot.bsky.social",
+    "https://bsky.app/profile/aliensaliens.bsky.social",
+    "https://bsky.app/profile/weird-prompts.bsky.social",
+    "https://bsky.app/profile/socksbot.bsky.social",
+    "https://bsky.app/profile/tenprint.bsky.social",
+    "https://bsky.app/profile/hitomezashibot.bsky.social"
+],
+
+"About my bots": ["https://alien-sunset.neocities.org/bots/Bots"],
+    
+    
+    
+"origin":["#svg# \\#generativeArt \\#Hitomezashi"],
+    
+"svg":[
+    "#strokeandfill##startplace# {svg <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" height='800' width='800'><rect width='800' height='800' style='fill:#fill#'/> #pattern# "
+],
+    
+    
+"strokewidth":["3","4","5","6"],
+"smalldigit": ["0","1","2","3","4","5","6","7"],
+"bigdigit": ["7","8","9","a","b","c","d","e","f"],
+"pastel": ["\\##bigdigit##bigdigit##bigdigit##bigdigit##bigdigit##bigdigit#"],
+"color": ["\\##smalldigit##bigdigit##smalldigit##bigdigit##smalldigit##bigdigit#"],
+"strokeandfill":["[stroke:#pastel#][fill:#color#]","[stroke:#color#][fill:#pastel#]"],
+"start":["10","30"],
+"startplace":["#random#","#match#","#random#","#match#","#mirror#","#repeat#","#mirrorRepeat#"],
+    
+"pattern":["#hitomezashi#"],
+    
+    
+"random":[
+    "[s1:#start#,#start#][s2:#start#,#start#][s3:#start#,#start#][s4:#start#,#start#][s5:#start#,#start#][s6:#start#,#start#][s7:#start#,#start#][s8:#start#,#start#][s9:#start#,#start#][s10:#start#,#start#][s11:#start#,#start#][s12:#start#,#start#][s13:#start#,#start#][s14:#start#,#start#][s15:#start#,#start#][s16:#start#,#start#][s17:#start#,#start#][s18:#start#,#start#][s19:#start#,#start#][s20:#start#,#start#][s21:#start#,#start#][s22:#start#,#start#][s23:#start#,#start#][s24:#start#,#start#][s25:#start#,#start#][s26:#start#,#start#][s27:#start#,#start#][s28:#start#,#start#][s29:#start#,#start#][s30:#start#,#start#][s31:#start#,#start#][s32:#start#,#start#][s33:#start#,#start#][s34:#start#,#start#][s35:#start#,#start#][s36:#start#,#start#][s37:#start#,#start#][s38:#start#,#start#][s39:#start#,#start#][s40:#start#,#start#]"
+],
+"match":[
+    "[s1:#start#][s2:#start#][s3:#start#][s4:#start#][s5:#start#][s6:#start#][s7:#start#][s8:#start#][s9:#start#][s10:#start#][s11:#start#][s12:#start#][s13:#start#][s14:#start#][s15:#start#][s16:#start#][s17:#start#][s18:#start#][s19:#start#][s20:#start#][s21:#start#][s22:#start#][s23:#start#][s24:#start#][s25:#start#][s26:#start#][s27:#start#][s28:#start#][s29:#start#][s30:#start#][s31:#start#][s32:#start#][s33:#start#][s34:#start#][s35:#start#][s36:#start#][s37:#start#][s38:#start#][s39:#start#][s40:#start#]"
+],
+"mirror":[
+    "[s1:#start#][s2:#start#][s3:#start#][s4:#start#][s5:#start#][s6:#start#][s7:#start#][s8:#start#][s9:#start#][s10:#start#][s11:#start#][s12:#start#][s13:#start#][s14:#start#][s15:#start#][s16:#start#][s17:#start#][s18:#start#][s19:#start#][s20:#start#][s21:#s20#][s22:#s19#][s23:#s18#][s24:#s17#][s25:#s16#][s26:#s15#][s27:#s14#][s28:#s13#][s29:#s12#][s30:#s11#][s31:#s10#][s32:#s9#][s33:#s8#][s34:#s7#][s35:#s6#][s36:#s5#][s37:#s4#][s38:#s3#][s39:#s2#][s40:#s1#]"
+],
+"repeat":[
+    "[s1:#start#][s2:#start#][s3:#start#][s4:#start#][s5:#start#][s6:#start#][s7:#start#][s8:#start#][s9:#start#][s10:#start#][s11:#start#][s12:#start#][s13:#start#][s14:#start#][s15:#start#][s16:#start#][s17:#start#][s18:#start#][s19:#start#][s20:#start#][s21:#s1#][s22:#s2#][s23:#s3#][s24:#s4#][s25:#s5#][s26:#s6#][s27:#s7#][s28:#s8#][s29:#s9#][s30:#s10#][s31:#s11#][s32:#s12#][s33:#s13#][s34:#s14#][s35:#s15#][s36:#s16#][s37:#s17#][s38:#s18#][s39:#s19#][s40:#s20#]"
+    ],
+"mirrorRepeat":[
+    "[s1:#start#][s2:#start#][s3:#start#][s4:#start#][s5:#start#][s6:#start#][s7:#start#][s8:#start#][s9:#start#][s10:#start#][s11:#s10#][s12:#s9#][s13:#s8#][s14:#s7#][s15:#s6#][s16:#s5#][s17:#s4#][s18:#s3#][s19:#s2#][s20:#s1#][s21:#s1#][s22:#s2#][s23:#s3#][s24:#s4#][s25:#s5#][s26:#s6#][s27:#s7#][s28:#s8#][s29:#s9#][s30:#s10#][s31:#s11#][s32:#s12#][s33:#s13#][s34:#s14#][s35:#s15#][s36:#s16#][s37:#s17#][s38:#s18#][s39:#s19#][s40:#s20#]"
+],
+    
+"hitomezashi":[
+    "<g fill='none' stroke='#stroke#' stroke-width='#strokewidth#' stroke-linecap='round'><path stroke-dasharray='20,20' d='M#s1# 10 790 10'/><path stroke-dasharray='20,20' d='M#s2# 30 790 30'/><path stroke-dasharray='20,20' d='M#s3# 50 790 50'/><path stroke-dasharray='20,20' d='M#s4# 70 790 70'/><path stroke-dasharray='20,20' d='M#s5# 90 790 90'/><path stroke-dasharray='20,20' d='M#s6# 110 790 110'/><path stroke-dasharray='20,20' d='M#s7# 130 790 130'/><path stroke-dasharray='20,20' d='M#s8# 150 790 150'/><path stroke-dasharray='20,20' d='M#s9# 170 790 170'/><path stroke-dasharray='20,20' d='M#s10# 190 790 190'/><path stroke-dasharray='20,20' d='M#s11# 210 790 210'/><path stroke-dasharray='20,20' d='M#s12# 230 790 230'/><path stroke-dasharray='20,20' d='M#s13# 250 790 250'/><path stroke-dasharray='20,20' d='M#s14# 270 790 270'/><path stroke-dasharray='20,20' d='M#s15# 290 790 290'/><path stroke-dasharray='20,20' d='M#s16# 310 790 310'/><path stroke-dasharray='20,20' d='M#s17# 330 790 330'/><path stroke-dasharray='20,20' d='M#s18# 350 790 350'/><path stroke-dasharray='20,20' d='M#s19# 370 790 370'/><path stroke-dasharray='20,20' d='M#s20# 390 790 390'/><path stroke-dasharray='20,20' d='M#s21# 410 790 410'/><path stroke-dasharray='20,20' d='M#s22# 430 790 430'/><path stroke-dasharray='20,20' d='M#s23# 450 790 450'/><path stroke-dasharray='20,20' d='M#s24# 470 790 470'/><path stroke-dasharray='20,20' d='M#s25# 490 790 490'/><path stroke-dasharray='20,20' d='M#s26# 510 790 510'/><path stroke-dasharray='20,20' d='M#s27# 530 790 530'/><path stroke-dasharray='20,20' d='M#s28# 550 790 550'/><path stroke-dasharray='20,20' d='M#s29# 570 790 570'/><path stroke-dasharray='20,20' d='M#s30# 590 790 590'/><path stroke-dasharray='20,20' d='M#s31# 610 790 610'/><path stroke-dasharray='20,20' d='M#s32# 630 790 630'/><path stroke-dasharray='20,20' d='M#s33# 650 790 650'/><path stroke-dasharray='20,20' d='M#s34# 670 790 670'/><path stroke-dasharray='20,20' d='M#s35# 690 790 690'/><path stroke-dasharray='20,20' d='M#s36# 710 790 710'/><path stroke-dasharray='20,20' d='M#s37# 730 790 730'/><path stroke-dasharray='20,20' d='M#s38# 750 790 750'/><path stroke-dasharray='20,20' d='M#s39# 770 790 770'/><path stroke-dasharray='20,20' d='M#s40# 790 790 790'/>    <path stroke-dasharray='20,20' d='M10 #s1# 10 790'/><path stroke-dasharray='20,20' d='M30 #s2# 30 790'/><path stroke-dasharray='20,20' d='M50 #s3# 50 790'/><path stroke-dasharray='20,20' d='M70 #s4# 70 790'/><path stroke-dasharray='20,20' d='M90 #s5# 90 790'/><path stroke-dasharray='20,20' d='M110 #s6# 110 790'/><path stroke-dasharray='20,20' d='M130 #s7# 130 790'/><path stroke-dasharray='20,20' d='M150 #s8# 150 790'/><path stroke-dasharray='20,20' d='M170 #s9# 170 790'/><path stroke-dasharray='20,20' d='M190 #s10# 190 790'/><path stroke-dasharray='20,20' d='M210 #s11# 210 790'/><path stroke-dasharray='20,20' d='M230 #s12# 230 790'/><path stroke-dasharray='20,20' d='M250 #s13# 250 790'/><path stroke-dasharray='20,20' d='M270 #s14# 270 790'/><path stroke-dasharray='20,20' d='M290 #s15# 290 790'/><path stroke-dasharray='20,20' d='M310 #s16# 310 790'/><path stroke-dasharray='20,20' d='M330 #s17# 330 790'/><path stroke-dasharray='20,20' d='M350 #s18# 350 790'/><path stroke-dasharray='20,20' d='M370 #s19# 370 790'/><path stroke-dasharray='20,20' d='M390 #s20# 390 790'/><path stroke-dasharray='20,20' d='M410 #s21# 410 790'/><path stroke-dasharray='20,20' d='M430 #s22# 430 790'/><path stroke-dasharray='20,20' d='M450 #s23# 450 790'/><path stroke-dasharray='20,20' d='M470 #s24# 470 790'/><path stroke-dasharray='20,20' d='M490 #s25# 490 790'/><path stroke-dasharray='20,20' d='M510 #s26# 510 790'/><path stroke-dasharray='20,20' d='M530 #s27# 530 790'/><path stroke-dasharray='20,20' d='M550 #s28# 550 790'/><path stroke-dasharray='20,20' d='M570 #s29# 570 790'/><path stroke-dasharray='20,20' d='M590 #s30# 590 790'/><path stroke-dasharray='20,20' d='M610 #s31# 610 790'/><path stroke-dasharray='20,20' d='M630 #s32# 630 790'/><path stroke-dasharray='20,20' d='M650 #s33# 650 790'/><path stroke-dasharray='20,20' d='M670 #s34# 670 790'/><path stroke-dasharray='20,20' d='M690 #s35# 690 790'/><path stroke-dasharray='20,20' d='M710 #s36# 710 790'/><path stroke-dasharray='20,20' d='M730 #s37# 730 790'/><path stroke-dasharray='20,20' d='M750 #s38# 750 790'/><path stroke-dasharray='20,20' d='M770 #s39# 770 790'/><path stroke-dasharray='20,20' d='M790 #s40# 790 790'/>  </g></svg>}{alt a series of vertical and horizontal dashed lines creating a geometric pattern}"
+]
+    
+}
