@@ -40,6 +40,9 @@
     "https://beige.party/@socksbot",
     "https://beige.party/@tenprint",
     "https://beige.party/@HitomezashiBot",
+    "https://mastodon.art/@Inkle_Pattern_Bot",
+    "https://dice.camp/@RPG_Hack",
+    "https://mastodon.art/@Sand_And_Foam",
     "https://bsky.app/profile/color-palette-bot.bsky.social",
     "https://bsky.app/profile/grandmas-quilt.bsky.social",
     "https://bsky.app/profile/soft-skylines.bsky.social",
@@ -49,7 +52,10 @@
     "https://bsky.app/profile/weird-prompts.bsky.social",
     "https://bsky.app/profile/socksbot.bsky.social",
     "https://bsky.app/profile/tenprint.bsky.social",
-    "https://bsky.app/profile/hitomezashibot.bsky.social"
+    "https://bsky.app/profile/hitomezashibot.bsky.social",
+    "https://bsky.app/profile/inkle-pattern-bot.bsky.social",
+    "https://bsky.app/profile/rpg-hack.bsky.social",
+    "https://bsky.app/profile/sand-and-foam.bsky.social"
 ],
 
 "About my bots": ["https://alien-sunset.neocities.org/bots/Bots"],
@@ -64,7 +70,7 @@
 
 "Lips / Labios (1935) \n https://www.remediosvaro.art/paintings/labios \n{img https://remedios-varo-art-images.s3.amazonaws.com/224-labios.jpg  Lips / Labios (1935) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
-"The Message / El Mensaje (1935) \n https://www.remediosvaro.art/paintings/le-message \n{hide}{img https://remedios-varo-art-images.s3.amazonaws.com/80-le-message.jpg  The Message / El Mensaje (1935) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
+"The Message / El Mensaje (1935) \n https://www.remediosvaro.art/paintings/le-message \n{label nudity}{img https://remedios-varo-art-images.s3.amazonaws.com/80-le-message.jpg  The Message / El Mensaje (1935) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
 "Monument to a Clairvoyant (Monument to a visionary) / Monument à une Voyante (Monumento a un vidente) (1935) \n https://www.remediosvaro.art/paintings/monument-a-une-voyante-monumento-a-un-vidente \n{img https://remedios-varo-art-images.s3.amazonaws.com/87-monument-%C3%A0-une-voyante-monumento-a-un-vidente.jpg  Monument to a Clairvoyant (Monument to a visionary) / Monument à une Voyante (Monumento a un vidente) (1935) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
@@ -178,7 +184,7 @@
 
 "Lady's Journey / Viaje de Lady (1950) \n https://www.remediosvaro.art/paintings/viaje-de-lady \n{img https://remedios-varo-art-images.s3.amazonaws.com/59-viaje-de-lady.jpg  Lady's Journey / Viaje de Lady (1950) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
-"Woman and Bird (1950) \n https://www.remediosvaro.art/paintings/woman-and-bird\n{hide}{img https://remedios-varo-art-images.s3.amazonaws.com/207-woman-and-bird.jpg  Woman and Bird (1950) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
+"Woman and Bird (1950) \n https://www.remediosvaro.art/paintings/woman-and-bird\n{label nudity}{img https://remedios-varo-art-images.s3.amazonaws.com/207-woman-and-bird.jpg  Woman and Bird (1950) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
 "Correspondances (1951) \n https://www.remediosvaro.art/paintings/correspondances \n{img https://remedios-varo-art-images.s3.amazonaws.com/212-correspondances.jpg  Correspondances (1951) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
@@ -188,7 +194,7 @@
 
 "Portrait of Baron Angelo Milfastos as a child / Retrato del Barón Angelo Milfastos de niño (1952) \n https://www.remediosvaro.art/paintings/retrato-del-baron-angelo-milfastos-de-nino \n{img https://remedios-varo-art-images.s3.amazonaws.com/278-retrato-del-bar%C3%B3n-angelo-milfastos-de-ni%C3%B1o.jpg  Portrait of Baron Angelo Milfastos as a child / Retrato del Barón Angelo Milfastos de niño (1952) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
-"Christmas Card / Tarjeta Navideña (1952) \n https://www.remediosvaro.art/paintings/tarjeta-navidena\n{img https://remedios-varo-art-images.s3.amazonaws.com/96c47655-b772-4509-8cf5-28f37ee29120.webp  Christmas Card / Tarjeta Navideña (1952) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
+"Christmas Card / Tarjeta Navideña (1952) \n https://www.remediosvaro.art/paintings/tarjeta-navidena\n{img https://remedios-varo-art-images.s3.amazonaws.com/96c47655-b772-4509-8cf5-28f37ee29120.webp  Christmas Card / Tarjeta Navideña (1952) by Remedios Varo (1908 - 1963) \n\n A painted scene. An evergreen tree stands in a forest of bare trees and snow. The evergreen is decorated with ornaments and candles. Two birds, red and blue, fly toward the tree carrying ornaments in their beaks. A rabbit holds a candle holder in its mouth. An anthropomorphic flower holds an ornament. \n\n alt text thanks to Karen E. Lund} \n ",
 
 "Premonition /  Premonición (1953) \n https://www.remediosvaro.art/paintings/premonicion\n{img https://remedios-varo-art-images.s3.amazonaws.com/217-premonici%C3%B3n.jpg  Premonition /  Premonición (1953) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
@@ -276,7 +282,7 @@
 
 "The Other Clock / El Otro Reloj (1957) \n https://www.remediosvaro.art/paintings/el-otro-reloj \n{img https://remedios-varo-art-images.s3.amazonaws.com/132-el-otro-reloj.jpg  The Other Clock / El Otro Reloj (1957) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
-"The Rhapsody (Troubadour) / El Rapsoda (Trovador) (1957) \n https://www.remediosvaro.art/paintings/el-rapsoda-trovador \n{hide}{img https://remedios-varo-art-images.s3.amazonaws.com/177-el-rapsoda-trovador.jpg  The Rhapsody (Troubadour) / El Rapsoda (Trovador) (1957) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
+"The Rhapsody (Troubadour) / El Rapsoda (Trovador) (1957) \n https://www.remediosvaro.art/paintings/el-rapsoda-trovador \n{label nudity}{img https://remedios-varo-art-images.s3.amazonaws.com/177-el-rapsoda-trovador.jpg  The Rhapsody (Troubadour) / El Rapsoda (Trovador) (1957) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
 "The Tramp (Face of Mario Stern) / El Vagabundo (Cara de Mario Stern) (1957) \n https://www.remediosvaro.art/paintings/el-vagabundo-cara-de-mario-stern \n{img https://remedios-varo-art-images.s3.amazonaws.com/137-el-vagabundo-cara-de-mario-stern.jpg  The Tramp (Face of Mario Stern) / El Vagabundo (Cara de Mario Stern) (1957) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
@@ -336,7 +342,7 @@
 
 "Be brief / Sea usted Breve (1958) \n https://www.remediosvaro.art/paintings/sea-usted-breve \n{img https://remedios-varo-art-images.s3.amazonaws.com/112-sea-usted-breve.jpg  Be brief / Sea usted Breve (1958) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
-"Unexpected Visit (The Visitor) / Visita Inesperada (El Visitante) (1958) \n https://www.remediosvaro.art/paintings/visita-inesperada-el-visitante \n{hide}{img https://remedios-varo-art-images.s3.amazonaws.com/109-visita-inesperada-el-visitante.jpg  Unexpected Visit (The Visitor) / Visita Inesperada (El Visitante) (1958) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
+"Unexpected Visit (The Visitor) / Visita Inesperada (El Visitante) (1958) \n https://www.remediosvaro.art/paintings/visita-inesperada-el-visitante \n{label nudity}{img https://remedios-varo-art-images.s3.amazonaws.com/109-visita-inesperada-el-visitante.jpg  Unexpected Visit (The Visitor) / Visita Inesperada (El Visitante) (1958) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
 "Fantastic animal / Animal fantastico (1959) \n https://www.remediosvaro.art/paintings/animal-fantastico \n{img https://remedios-varo-art-images.s3.amazonaws.com/67-animal-fant%C3%A1stico.jpg  Fantastic animal / Animal fantastico (1959) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
@@ -356,7 +362,7 @@
 
 "The Sign of Cancer / El Signo de Cancer (1959) \n https://www.remediosvaro.art/paintings/el-signo-de-cancer \n{img https://remedios-varo-art-images.s3.amazonaws.com/158-el-signo-de-cancer.jpg  The Sign of Cancer / El Signo de Cancer (1959) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
-"The Troubadour / El Trovador (1959) \n https://www.remediosvaro.art/paintings/el-trovador \n{hide}{img https://remedios-varo-art-images.s3.amazonaws.com/146-el-trovador.jpg  The Troubadour / El Trovador (1959) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
+"The Troubadour / El Trovador (1959) \n https://www.remediosvaro.art/paintings/el-trovador \n{label nudity}{img https://remedios-varo-art-images.s3.amazonaws.com/146-el-trovador.jpg  The Troubadour / El Trovador (1959) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
 "The Visitor (Unexpected Visitor) (Unexpected Visit) / El Visitante (Visitante Inesperado) (Visita Inesperada) (1959) \n https://www.remediosvaro.art/paintings/el-visitante-visitante-inesperado \n{img https://remedios-varo-art-images.s3.amazonaws.com/116-el-visitante-visitante-inesperado-visita-inesperada.jpg  The Visitor (Unexpected Visitor) (Unexpected Visit) / El Visitante (Visitante Inesperado) (Visita Inesperada) (1959) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
@@ -372,7 +378,7 @@
 
 "Homo Rodans - (Sculpture) / Homo Rodans - (Escultura) (1959) \n https://www.remediosvaro.art/paintings/homo-rodans-escultura \n{img https://remedios-varo-art-images.s3.amazonaws.com/125-homo-rodans---escultura.jpg  Homo Rodans - (Sculpture) / Homo Rodans - (Escultura) (1959) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
-"Lady Godiva (1959) \n https://www.remediosvaro.art/paintings/lady-godiva \n{hide}{img https://remedios-varo-art-images.s3.amazonaws.com/147-lady-godiva.jpg  Lady Godiva (1959) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
+"Lady Godiva (1959) \n https://www.remediosvaro.art/paintings/lady-godiva \n{label nudity}{img https://remedios-varo-art-images.s3.amazonaws.com/147-lady-godiva.jpg  Lady Godiva (1959) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
 "Hair Locomotion (Detectives) / Locomoción Capilar (Detectives) (1959) \n https://www.remediosvaro.art/paintings/locomocion-capilar-detectives \n{img https://remedios-varo-art-images.s3.amazonaws.com/148-locomoci%C3%B3n-capilar-detectives.jpg  Hair Locomotion (Detectives) / Locomoción Capilar (Detectives) (1959) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
@@ -406,7 +412,7 @@
 
 "Woman Leaving the Psychoanalyst / Mujer Saliendo del Psicoanalista (1960) \n https://www.remediosvaro.art/paintings/mujer-saliendo-del-psicoanalista \n{img https://remedios-varo-art-images.s3.amazonaws.com/62-mujer-saliendo-del-psicoanalista-podr%C3%ADa-ser-juliana.jpg  Woman Leaving the Psychoanalyst / Mujer Saliendo del Psicoanalista (1960) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
-"To Be Reborn / Nacer de Nuevo (1960) \n https://www.remediosvaro.art/paintings/nacer-de-nuevo \n{hide}{img https://remedios-varo-art-images.s3.amazonaws.com/63-nacer-de-nuevo.jpg  To Be Reborn / Nacer de Nuevo (1960) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
+"To Be Reborn / Nacer de Nuevo (1960) \n https://www.remediosvaro.art/paintings/nacer-de-nuevo \n{label nudity}{img https://remedios-varo-art-images.s3.amazonaws.com/63-nacer-de-nuevo.jpg  To Be Reborn / Nacer de Nuevo (1960) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
 "Starship (Astronaut) / Nave Astral (Astronauta) (1960) \n https://www.remediosvaro.art/paintings/nave-astral-astronauta \n{img https://remedios-varo-art-images.s3.amazonaws.com/65-nave-astral-astronauta.jpg  Starship (Astronaut) / Nave Astral (Astronauta) (1960) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
@@ -418,7 +424,7 @@
 
 "Portrait of Juan Martín / Retrato de Juan Martín (1960) \n https://www.remediosvaro.art/paintings/retrato-de-juan-martin \n{img https://remedios-varo-art-images.s3.amazonaws.com/247-retrato-de-juan-mart%C3%ADn.jpg  Portrait of Juan Martín / Retrato de Juan Martín (1960) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
-"Visit to the plastic surgeon / Visita al cirujano plástico (1960) \n https://www.remediosvaro.art/paintings/visita-al-cirujano-plastico \n{hide}{img https://remedios-varo-art-images.s3.amazonaws.com/245-visita-al-cirujano-pl%C3%A1stico.jpg  Visit to the plastic surgeon / Visita al cirujano plástico (1960) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
+"Visit to the plastic surgeon / Visita al cirujano plástico (1960) \n https://www.remediosvaro.art/paintings/visita-al-cirujano-plastico \n{label nudity}{img https://remedios-varo-art-images.s3.amazonaws.com/245-visita-al-cirujano-pl%C3%A1stico.jpg  Visit to the plastic surgeon / Visita al cirujano plástico (1960) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
 "Wandering Astro / Astro Errante (1961) \n https://www.remediosvaro.art/paintings/astro-errante \n{img https://remedios-varo-art-images.s3.amazonaws.com/188-astro-errante.jpg  Wandering Astro / Astro Errante (1961) by Remedios Varo (1908 - 1963)} \nFeel free help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
@@ -513,7 +519,8 @@
 ],
 
 
-"Alt Text Credits":[
+"Alt Text Credits":[ 
+    "Christmas Card / Tarjeta Navideña (1952) - alt text by by Karen E. Lund: @Karen5Lund@mastodon.social"
 
 
 

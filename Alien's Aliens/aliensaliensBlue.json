@@ -19,6 +19,9 @@
     "https://beige.party/@socksbot",
     "https://beige.party/@tenprint",
     "https://beige.party/@HitomezashiBot",
+    "https://mastodon.art/@Inkle_Pattern_Bot",
+    "https://dice.camp/@RPG_Hack",
+    "https://mastodon.art/@Sand_And_Foam",
     "https://bsky.app/profile/color-palette-bot.bsky.social",
     "https://bsky.app/profile/grandmas-quilt.bsky.social",
     "https://bsky.app/profile/soft-skylines.bsky.social",
@@ -28,10 +31,16 @@
     "https://bsky.app/profile/weird-prompts.bsky.social",
     "https://bsky.app/profile/socksbot.bsky.social",
     "https://bsky.app/profile/tenprint.bsky.social",
-    "https://bsky.app/profile/hitomezashibot.bsky.social"
+    "https://bsky.app/profile/hitomezashibot.bsky.social",
+    "https://bsky.app/profile/inkle-pattern-bot.bsky.social",
+    "https://bsky.app/profile/rpg-hack.bsky.social",
+    "https://bsky.app/profile/sand-and-foam.bsky.social"
 ],
 
 "About my bots": ["https://alien-sunset.neocities.org/bots/Bots"],
+
+
+"reply":["#origin# \n\nto get even more Aliens on demand, check out the web generator: \nhttps://alien-sunset.neocities.org/bots/aliens"],
 
 
 "origin":["#someAliens# 👾 \\#aliens \\#pixelArt \\#spaceInvaders \\#generativeArt 👾"],

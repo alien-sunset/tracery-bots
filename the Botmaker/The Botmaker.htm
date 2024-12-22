@@ -4,47 +4,85 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=.6, maximum-scale=1">
   <title>The Botmaker</title>
-  <link href="style.css" rel="stylesheet" type="text/css" media="all">
+  <link href="/style.css" rel="stylesheet" type="text/css" media="all">
 </head>
 
 <body>
   <h1>I make Bots and Generators</h1>
 
-  <p>I like playing around with JavaScript and/or <a href="https://tracery.io/">Tracery</a> and making silly little generators; <br>
+  <p>
+    I like playing around with JavaScript and/or <a target="_blank" href="https://tracery.io/">Tracery</a> and making
+    silly little generators; <br>
 
     My most recent generators are: <br><br>
-    <a href="https://alien-sunset.neocities.org/bots/promps">Weird Prompt Generator</a> for all your weird artistic idea needs. (Made with Tracery)<br>
-    <a href="https://alien-sunset.neocities.org/bots/aliens">Alien's Aliens!</a> (Made with Tracery/SVG)<br>
-    and <a href="https://alien-sunset.neocities.org/bots/colorbot">The (Semi) Random Color Palette Generator.</a> (Made with JS) <br>
+    <a target="_blank" href="https://alien-sunset.neocities.org/bots/Hitomezashi">Hitomezashi Pattern Generator</a>
+    pleasing geometic patterns to inspire your next mending project (Made with Tracery/SVG)<br>
+    <a target="_blank" href="https://alien-sunset.neocities.org/bots/inkle">Inkle Pattern Generator</a> for designing
+    super cool band weaving patterns. (Made with Tracery/SVG)<br>
+    <a target="_blank" href="https://alien-sunset.neocities.org/bots/promps">Weird Prompt Generator</a> for all your
+    weird artistic idea needs. (Made with Tracery)<br>
+    <a target="_blank" href="https://alien-sunset.neocities.org/bots/aliens">Alien's Aliens!</a> (Made with
+    Tracery/SVG)<br>
+    and <a target="_blank" href="https://alien-sunset.neocities.org/bots/colorbot">The (Semi) Random Color Palette
+      Generator.</a> (Made with JS) <br>
   </p>
-
 
 
   <p>I've also made several bots!</p>
 
 
-
-  <p style="color:#179190">(You can follow me on <a rel="me" href="https://dice.camp/@Alien_Sunset">Mastodon</a> or on <a href="https://bsky.app/profile/aliensunset.bsky.social">BlueSky</a> if you want.)</p>
-
+  <p style="color:#179190">
+    (You can follow me on <a target="_blank" rel="me" href="https://dice.camp/@Alien_Sunset">Mastodon</a> or on
+    <a target="_blank" href="https://bsky.app/profile/aliensunset.bsky.social">BlueSky</a> if you want.)
+  </p>
 
 
 
   <ul style="color: #52B8A1; font-size:1.25em">
-    <li><u style="color:#b9b8f9">Color Palette Bot</u> (on <a href="https://mastodon.art/@Color_Palette_Bot">Mastodon</a> &amp; on <a href="https://bsky.app/profile/color-palette-bot.bsky.social">BlueSky</a>, you can see its source on <a href="https://github.com/alien-sunset/colorbot">Github</a>)
+    <li><u style="color:#b9b8f9">Color Palette Bot</u> (on <a target="_blank"
+        href="https://mastodon.art/@Color_Palette_Bot">Mastodon</a> &amp; on <a target="_blank"
+        href="https://bsky.app/profile/color-palette-bot.bsky.social">BlueSky</a>, you can see its source on <a
+        target="_blank" href="https://github.com/alien-sunset/colorbot">Github</a>)
       <ul>
         <li>
           <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em">My first bot! &lt;3. </p>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">I had recently gotten into digital art, and was getting really into weird side distractions like gradient maps, and was having a lot of fun finding new gradients to use in my mandalas and other art. <br>
-          While poking around the net I found a few “color palette generators” which had promise for making cool palettes and gradients, but many of them were far too random and came up with way more duds than winners.<br>
-          Then I started thinking about how I would go about making my own generator - how I wouldn't just generate a random hex code for each color but pick a seed, and then generate a palette based on that and one of the more popular color combinations - triad, analogous, complimentary, etc. and apply a little extra randomness via tweaking the saturation and lightness values. </p>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">And I just couldn't stop thinking about it! So I went looking for information on how such things are built, and one of the first things I was told was <i>“don't, it will be too hard, there's no way to know exactly what you will need to learn to do this, you should just pick something randomly and then after a few years see if you can do what you want, and if that doesn't work start over.”</i> etc etc. <br><br>
-          And, well, that kinda ticked me off. </p><br>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">So I went looking a little more and found Perchance, which is a site explicitly for making random generators. (Sadly it's been taken over by rabid AI fans and is mostly full of AI generated anime porn, or I would provide a link.) Anyways, after a while muddling through I had a pretty decent generator, but I felt really constrained by the limits of what I could do via that platform, including the fact that I couldn't easily turn it into a Mastodon bot. <br>
-          So I poked around some more. Perchance was constructed on a base of JavaScript, and I had already used a little of that in my generator, so I took what I had and moved it over to Glitch, and started the job of converting everything into JS without really knowing much JS myself, (a lot of googling was involved!) and surprisingly it wasn't that hard! </p>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">But I still couldn't figure out how to make it a Mastodon bot: first I had to figure out how to connect to Mastodon and make it post - a HUGE than you to BooDoo and Stefan for the advice on this part, they were SUPER helpful. Then I needed a host, Glitch USED to be able to do such things, but they had recently turned off the ability to ping projects from outside to make them post on a schedule, and unpaid accounts had all projects put to sleep after five minutes. After more searching I finally decided to just host the program on my computer as it wasn't that big. </p>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">And here we are! A beautiful spite-fueled bot that has started an obsession!</p><br>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">I had
+            recently gotten into digital art, and was getting really into weird side distractions like gradient maps,
+            and was having a lot of fun finding new gradients to use in my mandalas and other art. <br>
+            While poking around the net I found a few “color palette generators” which had promise for making cool
+            palettes and gradients, but many of them were far too random and came up with way more duds than
+            winners.<br>
+            Then I started thinking about how I would go about making my own generator - how I wouldn't just generate a
+            random hex code for each color but pick a seed, and then generate a palette based on that and one of the
+            more popular color combinations - triad, analogous, complimentary, etc. and apply a little extra randomness
+            via tweaking the saturation and lightness values. </p>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">And I
+            just couldn't stop thinking about it! So I went looking for information on how such things are built, and
+            one of the first things I was told was <i>“don't, it will be too hard, there's no way to know exactly what
+              you will need to learn to do this, you should just pick something randomly and then after a few years see
+              if you can do what you want, and if that doesn't work start over.”</i> etc etc. <br><br>
+            And, well, that kinda ticked me off. </p><br>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">So I went
+            looking a little more and found Perchance, which is a site explicitly for making random generators. (Sadly
+            it's been taken over by rabid AI fans and is mostly full of AI generated anime porn, or I would provide a
+            link.) Anyways, after a while muddling through I had a pretty decent generator, but I felt really
+            constrained by the limits of what I could do via that platform, including the fact that I couldn't easily
+            turn it into a Mastodon bot. <br>
+            So I poked around some more. Perchance was constructed on a base of JavaScript, and I had already used a
+            little of that in my generator, so I took what I had and moved it over to Glitch, and started the job of
+            converting everything into JS without really knowing much JS myself, (a lot of googling was involved!) and
+            surprisingly it wasn't that hard! </p>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">But I
+            still couldn't figure out how to make it a Mastodon bot: first I had to figure out how to connect to
+            Mastodon and make it post - a HUGE than you to BooDoo and Stefan for the advice on this part, they were
+            SUPER helpful. Then I needed a host, Glitch USED to be able to do such things, but they had recently turned
+            off the ability to ping projects from outside to make them post on a schedule, and unpaid accounts had all
+            projects put to sleep after five minutes. After more searching I finally decided to just host the program on
+            my computer as it wasn't that big. </p>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">And here
+            we are! A beautiful spite-fueled bot that has started an obsession!</p><br>
         </li>
       </ul>
     </li>
@@ -54,12 +92,22 @@
 
 
 
-    <li><u style="color:#b9b8f9">Grandma's Quilt</u> (on <a href="https://beige.party/@GrandmasQuilt">Mastodon</a> &amp; on <a href="https://bsky.app/profile/grandmas-quilt.bsky.social">BlueSky</a>, you can see its source on <a href="https://cheapbotstootsweet.com/source/?url=https://beige.party/@GrandmasQuilt">Cheep Bots Toot Sweet</a> or on <a href="https://bluebotsdonequick.com/bots/grandmas-quilt.bsky.social">Blue Bots Done Quick</a>)
+    <li><u style="color:#b9b8f9">Grandma's Quilt</u> (on <a target="_blank"
+        href="https://beige.party/@GrandmasQuilt">Mastodon</a> &amp; on <a target="_blank"
+        href="https://bsky.app/profile/grandmas-quilt.bsky.social">BlueSky</a>, you can see its source on <a
+        target="_blank" href="https://cheapbotstootsweet.com/source/?url=https://beige.party/@GrandmasQuilt">Cheep Bots
+        Toot Sweet</a> or on <a target="_blank"
+        href="https://bluebotsdonequick.com/bots/grandmas-quilt.bsky.social">Blue Bots Done Quick</a>)
       <ul>
         <li>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em;">This was kinda an accidental bot. I was playing around with some code in JS and ended up with something that looked kinda cool, and then I thought if I formatted it just a bit differently, and used slightly different symbols it would look kinda like a quilt, then I thought, this is neat, but I just learned about this Tracery thing, how would I make in in THAT using SVG instead of the JS canvas?
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em;">This was kinda an
+            accidental bot. I was playing around with some code in JS and ended up with something that looked kinda
+            cool, and then I thought if I formatted it just a bit differently, and used slightly different symbols it
+            would look kinda like a quilt, then I thought, this is neat, but I just learned about this Tracery thing,
+            how would I make in in THAT using SVG instead of the JS canvas?
           </p>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">And then I had all this Tracery code and Cheap Bots Toot Sweet just sitting there…. And tah dah! A bot! </p><br>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">And then
+            I had all this Tracery code and Cheap Bots Toot Sweet just sitting there…. And tah dah! A bot! </p><br>
         </li>
       </ul>
     </li>
@@ -69,13 +117,30 @@
 
 
 
-    <li><u style="color:#b9b8f9">Your Friendly Neighborhood Numbers Station</u> (on <a href="https://mastodon.social/@NumbersBot">Mastodon</a>, &amp; on <a href="https://bsky.app/profile/numbersbot.bsky.social">BlueSky</a> (partially, no audio), you can see its source on <a href="https://github.com/alien-sunset/numberStation">Github</a> or on <a href="https://bluebotsdonequick.com/bots/numbersbot.bsky.social">Blue Bots Done Quick</a>)
+    <li><u style="color:#b9b8f9">Your Friendly Neighborhood Numbers Station</u> (on <a target="_blank"
+        href="https://mastodon.social/@NumbersBot">Mastodon</a>, &amp; on <a target="_blank"
+        href="https://bsky.app/profile/numbersbot.bsky.social">BlueSky</a> (partially, no audio), you can see its source
+      on <a target="_blank" href="https://github.com/alien-sunset/numberStation">Github</a> or on <a target="_blank"
+        href="https://bluebotsdonequick.com/bots/numbersbot.bsky.social">Blue Bots Done Quick</a>)
       <ul>
         <li>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em">Ever fall down a Wikipedia rabbit hole and then find yourself full of weird new ideas completely unrelated to what you had originally gone looking for?</p>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">Yeah, that's kinda what happened here. <a href="https://en.wikipedia.org/wiki/Numbers_station">Numbers stations</a> are a fascinating concept, and I just felt there wasn't enough weirdness out there.<br> I had originally just been going to do it all in straight Tracery and just post the numbers. But then when my partner and I were talking about numbers stations with my son, my partner brought up her music composing programs and started putting in random numbers and making it sing. And then I just couldn't let go of the idea of having the bot actually Talk!</p>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">It took a while to find a good open source TTS program that didn't sound like total garbage that I could run via Node.js (how I run colorbot and do most of my programming) but eventually I found <a href="https://github.com/espeak-ng/espeak-ng">EspeakNG</a> and we were off!</p>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">Sadly, at the moment you can't post audio files to Bluesky so they get a bit of a downgrade to their bot experience. </p><br>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em">Ever fall down a Wikipedia
+            rabbit hole and then find yourself full of weird new ideas completely unrelated to what you had originally
+            gone looking for?</p>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">Yeah,
+            that's kinda what happened here. <a target="_blank"
+              href="https://en.wikipedia.org/wiki/Numbers_station">Numbers stations</a> are a fascinating concept, and I
+            just felt there wasn't enough weirdness out there.<br> I had originally just been going to do it all in
+            straight Tracery and just post the numbers. But then when my partner and I were talking about numbers
+            stations with my son, my partner brought up her music composing programs and started putting in random
+            numbers and making it sing. And then I just couldn't let go of the idea of having the bot actually Talk!</p>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">It took a
+            while to find a good open source TTS program that didn't sound like total garbage that I could run via
+            Node.js (how I run colorbot and do most of my programming) but eventually I found <a target="_blank"
+              href="https://github.com/espeak-ng/espeak-ng">EspeakNG</a> and we were off!</p>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">Sadly, at
+            the moment you can't post audio files to Bluesky so they get a bit of a downgrade to their bot experience.
+          </p><br>
         </li>
       </ul>
     </li>
@@ -85,14 +150,36 @@
 
 
 
-    <li><u style="color:#b9b8f9">Soft Skylines</u> (on <a href="https://beige.party/@Soft_Skylines">Mastodon</a> &amp; on <a href="https://bsky.app/profile/soft-skylines.bsky.social">BlueSky</a>, you can see its source on <a href="https://cheapbotstootsweet.com/source/?url=https://beige.party/@Soft_Skylines">Cheap Bots Toot Sweet</a> or on <a href="https://bluebotsdonequick.com/bots/soft-skylines.bsky.social">Blue Bots Done Quick</a>)
+    <li><u style="color:#b9b8f9">Soft Skylines</u> (on <a target="_blank"
+        href="https://beige.party/@Soft_Skylines">Mastodon</a> &amp;
+      on <a target="_blank" href="https://bsky.app/profile/soft-skylines.bsky.social">BlueSky</a>, you can see its
+      source on <a target="_blank"
+        href="https://cheapbotstootsweet.com/source/?url=https://beige.party/@Soft_Skylines">Cheap Bots Toot Sweet</a>
+      or on <a target="_blank" href="https://bluebotsdonequick.com/bots/soft-skylines.bsky.social">Blue Bots Done
+        Quick</a>)
       <ul>
         <li>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em">After NumbersBot I was feeling the itch to do something with SVG again.</p>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">One of my biggest inspirations is <a href="https://botsin.space/@softlandscapes">SoftLandscapes</a>, and I wanted to see if I could make something similar, I started just playing around with the gradient properties of SVG and seeing what I could do and make (and playing with color is just plain fun!), and at one point I threw a cool random batch of gradients into circle as a pattern element and I was struck at how cool it looked, and how ethereal and moon like against a black background. </p>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">I thought, this is a good scene, put some stars in the back… maybe a bit of a gradient coming up from the horizon… and then I realized it would make a great backdrop to a city skyline! I didn't know a lot about SVG stuff yet so it took me a while to figure out the best way to draw the buildings and give them windows, but eventually I got it. </p>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">Then I decided it needed some little random bits of interest flying through the sky. I started with the UFO which was deceptively easy to just… draw, using SVG shapes and x/y coordinates, then the Blimp and finally the Plane, which was the hardest to draw using just code, but I managed a pretty passable job, I think.</p>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">I have plans to go back eventually and change up the way the buildings are drawn so I can give them different top and roof treatments, so they aren't all just square. And I'd like to add some more random flying things eventually as well. But at the moment I'm really quite please with how this came out.</p><br>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em">After NumbersBot I was
+            feeling the itch to do something with SVG again.</p>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">One of my
+            biggest inspirations is <a target="_blank" href="https://botsin.space/@softlandscapes">SoftLandscapes</a>,
+            and I wanted to see if I could make something similar, I started just playing around with the gradient
+            properties of SVG and seeing what I could do and make (and playing with color is just plain fun!), and at
+            one point I threw a cool random batch of gradients into circle as a pattern element and I was struck at how
+            cool it looked, and how ethereal and moon like against a black background. </p>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">I
+            thought, this is a good scene, put some stars in the back… maybe a bit of a gradient coming up from the
+            horizon… and then I realized it would make a great backdrop to a city skyline! I didn't know a lot about SVG
+            stuff yet so it took me a while to figure out the best way to draw the buildings and give them windows, but
+            eventually I got it. </p>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">Then I
+            decided it needed some little random bits of interest flying through the sky. I started with the UFO which
+            was deceptively easy to just… draw, using SVG shapes and x/y coordinates, then the Blimp and finally the
+            Plane, which was the hardest to draw using just code, but I managed a pretty passable job, I think.</p>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">I have
+            plans to go back eventually and change up the way the buildings are drawn so I can give them different top
+            and roof treatments, so they aren't all just square. And I'd like to add some more random flying things
+            eventually as well. But at the moment I'm really quite please with how this came out.</p><br>
         </li>
       </ul>
     </li>
@@ -102,13 +189,24 @@
 
 
 
-    <li><u style="color:#b9b8f9">Remedios Varo Bot</u> (on <a href="https://mastodon.art/@Remedios_Varo_Bot">Mastodon</a> &amp; on <a href="https://bsky.app/profile/remedios-varo-bot.bsky.social">BlueSky</a>, you can see its source on <a href="https://cheapbotstootsweet.com/source/?url=https://botsin.space/@Remedios_Varo_Bot">Cheap Bots Toot Sweet</a> or on <a href="https://bluebotsdonequick.com/bots/remedios-varo-bot.bsky.social">Blue Bots Done Quick</a>)
+    <li><u style="color:#b9b8f9">Remedios Varo Bot</u> (on <a target="_blank"
+        href="https://mastodon.art/@Remedios_Varo_Bot">Mastodon</a> &amp; on <a target="_blank"
+        href="https://bsky.app/profile/remedios-varo-bot.bsky.social">BlueSky</a>, you can see its source on <a
+        target="_blank" href="https://cheapbotstootsweet.com/source/?url=https://botsin.space/@Remedios_Varo_Bot">Cheap
+        Bots Toot Sweet</a> or on <a target="_blank"
+        href="https://bluebotsdonequick.com/bots/remedios-varo-bot.bsky.social">Blue Bots Done Quick</a>)
       <ul>
         <li>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em">María de los Remedios Alicia Rodriga Varo y Uranga</p>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">A Spanish Mexican surrealist painter, and one of my favorites, just, the actual art is freaking amazing and her subject matter is just… I love it. </p>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">There used to be a bot posting her art but it stopped working ages ago, so I took it upon myself to make a new one. It was especially fun because I got to go through and look at SO MANY PAINTINGS!<br>
-          There actually was another bot already on Bluesky, but its image source was small and substandard, so I don't feel bad horning in on its territory. Remedios deserves better rep than that.</p><br>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em">María de los Remedios Alicia
+            Rodriga Varo y Uranga</p>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">A Spanish
+            Mexican surrealist painter, and one of my favorites, just, the actual art is freaking amazing and her
+            subject matter is just… I love it. </p>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">There
+            used to be a bot posting her art but it stopped working ages ago, so I took it upon myself to make a new
+            one. It was especially fun because I got to go through and look at SO MANY PAINTINGS!<br>
+            There actually was another bot already on Bluesky, but its image source was small and substandard, so I
+            don't feel bad horning in on its territory. Remedios deserves better rep than that.</p><br>
         </li>
       </ul>
     </li>
@@ -118,15 +216,38 @@
 
 
 
-    <li><u style="color:#b9b8f9">Alien's Aliens</u> (on <a href="https://beige.party/@aliensaliens">Mastodon</a> &amp; on <a href="https://bsky.app/profile/aliensaliens.bsky.social">BlueSky</a>, you can see its source on <a href="https://cheapbotstootsweet.com/source/?url=https://beige.party/@aliensaliens">Cheap Bots Toot Sweet</a> or on  <a href="https://bluebotsdonequick.com/bots/aliensaliens.bsky.social">Blue Bots Done Quick</a>)
+    <li><u style="color:#b9b8f9">Alien's Aliens</u> (on <a target="_blank"
+        href="https://beige.party/@aliensaliens">Mastodon</a> &amp; on <a target="_blank"
+        href="https://bsky.app/profile/aliensaliens.bsky.social">BlueSky</a>, you can see its source on <a
+        target="_blank" href="https://cheapbotstootsweet.com/source/?url=https://beige.party/@aliensaliens">Cheap Bots
+        Toot Sweet</a> or on <a target="_blank" href="https://bluebotsdonequick.com/bots/aliensaliens.bsky.social">Blue
+        Bots Done Quick</a>)
       <ul>
         <li>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em">In Minecraft everything is pixelated. My son and I were discussing custom textures for an item for a mini game we were planning - We wanted to make a bunch of little aliens like from Space Invaders. But my son was worried about how to design them, so I was explaining how one could make a random generator to make a ton of them and pick his favorites. </p>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">I'd been playing with that idea in the back of my head for a while, trying to figure out how to do something like that in Tracery when I learned about the <a href="https://botwiki.org/bot/pixel-monster-bot/">Pixel Monsters Bot</a> and was a little sad that the idea had already been done, but the bot was down, and the maker seemed unreachable, so I still kept tossing the idea around in my head until I just couldn't help it, and started writing the Tracery.</p>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">A little while later I found this <a href="https://www.freecodecamp.org/news/how-to-create-generative-art-in-less-than-100-lines-of-code-d37f379859f">article</a> and then a different <a href="https://2draw.me/random_ship_generator/">generator site</a> and didn't feel quite so bad about keeping on with my idea. <br>
-          My idea definitely wasn't original, and the Tracery code is definitely longer than the Python or JavaScript used in those places, but it was still super cool. Tracery is a remarkably “simple” language which can make some amazingly “complicated” results and it felt good to be able to produce something so cool with such easy and simple tools. And I definitely liked how I could just throw my code up on Cheap Bots Toot Sweet or Blue Bots Done Quick and have an “instant” bot!<br> 
-          And making the generator on my site was just as easy and fun! </p>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">Not everything has to be perfectly original or super efficient to have fun in the doing. </p><br>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em">In Minecraft everything is
+            pixelated. My son and I were discussing custom textures for an item for a mini game we were planning - We
+            wanted to make a bunch of little aliens like from Space Invaders. But my son was worried about how to design
+            them, so I was explaining how one could make a random generator to make a ton of them and pick his
+            favorites. </p>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">I'd been
+            playing with that idea in the back of my head for a while, trying to figure out how to do something like
+            that in Tracery when I learned about the <a target="_blank"
+              href="https://botwiki.org/bot/pixel-monster-bot/">Pixel Monsters Bot</a> and was a little sad that the
+            idea had already been done, but the bot was down, and the maker seemed unreachable, so I still kept tossing
+            the idea around in my head until I just couldn't help it, and started writing the Tracery.</p>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">A little
+            while later I found this <a target="_blank"
+              href="https://www.freecodecamp.org/news/how-to-create-generative-art-in-less-than-100-lines-of-code-d37f379859f">article</a>
+            and then a different <a target="_blank" href="https://2draw.me/random_ship_generator/">generator site</a>
+            and didn't feel quite so bad about keeping on with my idea. <br>
+            My idea definitely wasn't original, and the Tracery code is definitely longer than the Python or JavaScript
+            used in those places, but it was still super cool. Tracery is a remarkably “simple” language which can make
+            some amazingly “complicated” results and it felt good to be able to produce something so cool with such easy
+            and simple tools. And I definitely liked how I could just throw my code up on Cheap Bots Toot Sweet or Blue
+            Bots Done Quick and have an “instant” bot!<br>
+            And making the generator on my site was just as easy and fun! </p>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">Not
+            everything has to be perfectly original or super efficient to have fun in the doing. </p><br>
         </li>
       </ul>
     </li>
@@ -136,12 +257,30 @@
 
 
 
-    <li><u style="color:#b9b8f9">Weird Prompt Bot</u> (on <a href="https://beige.party/@weird_prompts">Mastodon</a> &amp; on <a href="https://bsky.app/profile/weird-prompts.bsky.social">BlueSky</a>, you can see its source on <a href="https://cheapbotstootsweet.com/source/?url=https://beige.party/@weird_prompts">Cheap Bots Toot Sweet</a> or on <a href="https://bluebotsdonequick.com/bots/numbersbot.bsky.social">Blue Bots Done Quick</a>)
+    <li><u style="color:#b9b8f9">Weird Prompt Bot</u> (on <a target="_blank"
+        href="https://beige.party/@weird_prompts">Mastodon</a>
+      &amp; on <a target="_blank" href="https://bsky.app/profile/weird-prompts.bsky.social">BlueSky</a>, you can see its
+      source on <a target="_blank"
+        href="https://cheapbotstootsweet.com/source/?url=https://beige.party/@weird_prompts">Cheap Bots Toot Sweet</a>
+      or on <a target="_blank" href="https://bluebotsdonequick.com/bots/numbersbot.bsky.social">Blue Bots Done
+        Quick</a>)
       <ul>
         <li>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em">I follow a few art prompt type sites and accounts, and the prompts always seem so boring and unimaginative, just one random word or phrase. And I thought to myself, I could totally do better than that. (I'm aware that the simple words and prompts is the idea… to allow your inspiration and creativity to flow, I'm mostly just having fun here, alright?)</p>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">this is the first “proper” word-based Tracery I've written, and it was surprisingly difficult to make sure words and tenses and phrases matched up right. There's still a little funkiness around the pluralization of some words - Tracery has an in built pluralization function but it is VERY simple and doesn't handle weird words like moose/moose, mouse/mice, moth/moths, goose/geese &amp; etc very well. And I sometimes still get phrases that don't flow as nicely as I would like. But it's most definitely WEIRD which is exactly what I was going for.</p>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">I'm in the process of putting together some better word/phrases lists for it, and I hope to be able to improve it and increase the weirdness even more in the future. </p><br>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em">I follow a few art prompt
+            type sites and accounts, and the prompts always seem so boring and unimaginative, just one random word or
+            phrase. And I thought to myself, I could totally do better than that. (I'm aware that the simple words and
+            prompts is the idea… to allow your inspiration and creativity to flow, I'm mostly just having fun here,
+            alright?)</p>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">this is
+            the first “proper” word-based Tracery I've written, and it was surprisingly difficult to make sure words and
+            tenses and phrases matched up right. There's still a little funkiness around the pluralization of some words
+            - Tracery has an in built pluralization function but it is VERY simple and doesn't handle weird words like
+            moose/moose, mouse/mice, moth/moths, goose/geese &amp; etc very well. And I sometimes still get phrases that
+            don't flow as nicely as I would like. But it's most definitely WEIRD which is exactly what I was going for.
+          </p>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">I'm in
+            the process of putting together some better word/phrases lists for it, and I hope to be able to improve it
+            and increase the weirdness even more in the future. </p><br>
         </li>
       </ul>
     </li>
@@ -151,51 +290,240 @@
 
 
 
-    <li><u style="color:#b9b8f9">Socks Bot</u> (on <a href="https://beige.party/@socksbot">Mastodon</a> &amp; on <a href="https://bsky.app/profile/socksbot.bsky.social">BlueSky</a>, you can see its source on <a href="https://cheapbotstootsweet.com/source/?url=https://beige.party/@socksbot">Cheap Bots Toot Sweet</a> or on <a href="https://bluebotsdonequick.com/bots/socksbot.bsky.social">Blue Bots Done Quick</a>)
+    <li><u style="color:#b9b8f9">Socks Bot</u> (on <a target="_blank" href="https://beige.party/@socksbot">Mastodon</a>
+      &amp; on <a target="_blank" href="https://bsky.app/profile/socksbot.bsky.social">BlueSky</a>, you can see its
+      source on <a target="_blank" href="https://cheapbotstootsweet.com/source/?url=https://beige.party/@socksbot">Cheap
+        Bots Toot Sweet</a> or on <a target="_blank" href="https://bluebotsdonequick.com/bots/socksbot.bsky.social">Blue
+        Bots Done Quick</a>)
       <ul>
         <li>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em">The idea for this bot actually came to me a while ago via <a href="https://botwiki.org/">Botwiki</a>: there use to be another <a href="https://botsin.space/@socks">SockBot</a> but it hadn't posted in over four years, and I really loved the idea. But up until recently I wasn't really sure how I would be able to make something even remotely close with Tracery. And after ColorBot I really wanted to avoid having to make a bot that need to be hosted/dependent on my computer, which means I'm “stuck” with Tracery and Cheap Bots Toot Sweet (this is not a complaint, I LOVE Tracery and I enjoy pushing the boundaries of what can be accomplished with seemingly simple code and SVG).</p>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">But then after making the Aliens I was feeling a lot more comfortable with what Tracery can do and I felt I was ready to tackle it. The Biggest Hurdle would be drawing the socks in SVG. Previously I had only drawn simple little silhouettes with just the straight code, and while sock shapes seem relatively simple, there were a lot of separate little parts that I needed to keep separate. And the curves and semi circles had given me FITS with SoftSkylines. </p>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">So I just “gave up” and drew the socks in Inkscape. Then opened the files up in Notepad++ and teased out all the relevant SVG code that I needed for the Tracery. It feels kinda like cheating, but then I went overboard with the leg and foot decorations and made about a million combination possibilities. (And I still have a few ideas for more, but I got tired and just wanted to see the bot gooooo!)</p>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">The trickiest bit was assuring that the individual parts and decorations of the sock could be properly described in the alt text. That's one of my main regrets of SoftSkylines - that the descriptions were so bland and I couldn't figure out how to add the random flying bits and I will definitely be going back some day to try and fix that. The phrasing of the alt text still feels a little awkward to me, but I'm still pretty pleased with how it all worked out. </p><br>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em">The idea for this bot
+            actually came to me a while ago via <a target="_blank" href="https://botwiki.org/">Botwiki</a>: there use to
+            be another <a target="_blank" href="https://botsin.space/@socks">SockBot</a> but it hadn't posted in over
+            four years, and I really loved the idea. But up until recently I wasn't really sure how I would be able to
+            make something even remotely close with Tracery. And after ColorBot I really wanted to avoid having to make
+            a bot that need to be hosted/dependent on my computer, which means I'm “stuck” with Tracery and Cheap Bots
+            Toot Sweet (this is not a complaint, I LOVE Tracery and I enjoy pushing the boundaries of what can be
+            accomplished with seemingly
+            simple code and SVG).</p>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">But then
+            after making the Aliens I was feeling a lot more comfortable with what Tracery can do and I felt I was ready
+            to tackle it. The Biggest Hurdle would be drawing the socks in SVG. Previously I had only drawn simple
+            little silhouettes with just the straight code, and while sock shapes seem relatively simple, there were a
+            lot of separate little parts that I needed to keep separate. And the curves and semi circles had given me
+            FITS with SoftSkylines. </p>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">So I just
+            “gave up” and drew the socks in Inkscape. Then opened the files up in Notepad++ and teased out all the
+            relevant SVG code that I needed for the Tracery. It feels kinda like cheating, but then I went overboard
+            with the leg and foot decorations and made about a million combination possibilities. (And I still have a
+            few ideas for more, but I got tired and just wanted to see the bot gooooo!)</p>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">The
+            trickiest bit was assuring that the individual parts and decorations of the sock could be properly described
+            in the alt text. That's one of my main regrets of SoftSkylines - that the descriptions were so bland and I
+            couldn't figure out how to add the random flying bits and I will definitely be going back some day to try
+            and fix that. The phrasing of the alt text still feels a little awkward to me, but I'm still pretty pleased
+            with how it all worked out. </p><br>
         </li>
       </ul>
     </li>
-    
-    
-    
-    
-    
-    <li><u style="color:#b9b8f9">Daily 10Print</u> (on <a href="https://beige.party/@tenprint">Mastodon</a> &amp; on <a href="https://bsky.app/profile/tenprint.bsky.social">BlueSky</a>, you can see its source on <a href="https://cheapbotstootsweet.com/source/?url=https://beige.party/@tenprint">Cheap Bots Toot Sweet</a> or on <a href="https://bluebotsdonequick.com/bots/tenprint.bsky.social">Blue Bots Done Quick</a>)
+
+
+
+
+
+
+    <li><u style="color:#b9b8f9">Daily 10Print</u> (on <a target="_blank"
+        href="https://beige.party/@tenprint">Mastodon</a> &amp; on <a target="_blank"
+        href="https://bsky.app/profile/tenprint.bsky.social">BlueSky</a>, you can see its source on <a target="_blank"
+        href="https://cheapbotstootsweet.com/source/?url=https://beige.party/@tenprint">Cheap Bots Toot Sweet</a> or on
+      <a target="_blank" href="https://bluebotsdonequick.com/bots/tenprint.bsky.social">Blue Bots Done Quick</a>)
       <ul>
         <li>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em"> Inspired by <a href="https://10print.org/">10Print.org</a> and the <a href="https://mastodon.art/@RandomTiling">Random Tiling Bot</a> over on Mastodon by <a href="https://mathstodon.xyz/@divbyzero">Dave Richeson</a><br>
-          Sadly, my code is significantly longer than one line, but this bot was still a lot of fun to make.</p>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">I’ve really enjoy the RandomTiling bot’s posts over on Mastodon, and was a little sad when the creator implied that he wasn’t going to migrate it.<br>
-          I started thinking about how I would recreate it, but quickly got far too overwhelmed by the idea of trying to make all the different tiling patterns it uses let alone set up the random selections and rotations. Eventually I decided that maybe he could be persuaded to keep going? (I sent him a message letting him know how much the bot was loved, and he decided to Migrate! Hooray!) But did decided to at least try to make a bot that did the 10Print pattern, it’s simple yet really satisfying, and it shouldn’t be too difficult, right?<br>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em"> Inspired by <a
+              target="_blank" href="https://10print.org/">10Print.org</a> and the <a
+              href="https://mastodon.art/@RandomTiling">Random Tiling Bot</a> over on Mastodon by <a target="_blank"
+              href="https://mathstodon.xyz/@divbyzero">Dave Richeson</a><br>
+            Sadly, my code is significantly longer than one line, but this bot was still a lot of fun to make.</p>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">I've
+            really enjoy the RandomTiling bot's posts over on Mastodon, and was a little sad when the creator implied
+            that he wasn't going to migrate it.<br>
+            I started thinking about how I would recreate it, but quickly got far too overwhelmed by the idea of trying
+            to make all the different tiling patterns it uses let alone set up the random selections and rotations.
+            Eventually I decided that maybe he could be persuaded to keep going? (I sent him a message letting him know
+            how much the bot was loved, and he decided to Migrate! Hooray!) But did decided to at least try to make a
+            bot that did the 10Print pattern, it's simple yet really satisfying, and it shouldn't be too difficult,
+            right?<br>
             Friends, it was both very easy and very hard.</p>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">It took me a couple of tries before I found a method I was pleased with, I spent some time studying the code of some other bots that I had access to to see how they handled certain elements and eventually settled on a method that I’m pretty happy with. And after that it was just a lot of tedious copy/paste and search/replace. As each slash needed its own “line” of SVG code, but each one was essentially identical aside from it’s coordinates. I had originally set it up with the idea of adding more patterns as time went on to eventually become a successor of RandomTiling. But now that RandomTiling is sticking around I think now I’m just going to leave it as is. Maybe someday I’ll revisit the idea and steal my own code for it, or maybe I'll have learned something new and go in a totally different direction!  </p><br>
-        </li>
-      </ul>
-    </li>
-    
-    
-    
-    
-    
-    <li><u style="color:#b9b8f9">Hitomezashi Bot</u> (on <A href="https://beige.party/@hitomezashibot">Mastodon</a> & on <a href="https://bsky.app/profile/hitomezashibot.bsky.social">BlueSky</a>, you can see its source on <a href="">Cheap Bots Toot Sweet</a> or on <a href="https://bluebotsdonequick.com/bots/hitomezashibot.bsky.social">Blue Bots Done Quick</a>)
-      <ul>
-        <li>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em"> Partially inspired by <a href="https://youtu.be/JbfhzlMk2eY">this numberphile video</a> (and you should totally check out <a href="https://doi.org/10.1080/17513472.2023.2187999">this really cool paper</a> for even more mathy and stitching nerdiness.)</p>
-          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">I didn't really mean to make another bot, I MEANT to be working on Advent of Code and learning new stuff, but then someone I followed posted a procedurally generated piece of art they had coded using Hitomezashi as a base and it made my brain go Bzzzzz! And then I just couldn't stop thinking about it.  Thankfully, it was fairly easy to put together, as I did indeed steal 10 Print's coded bones for most of it, but instead of having to code in every slash I just had to make one "dasharray" per row, which was much nicer.  then I just worked up a couple random/semi random variations for horizontal vs vertical lines, so some images end up being more symmetrical than others to varying degrees. I’m quite pleased with the outcome, the patterns it makes are really fun and pleasing to look at. I may end up borrowing some for my handcraft projects, and really hope it can inspire other handcrafters as well!</p>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">It took
+            me a couple of tries before I found a method I was pleased with, I spent some time studying the code of some
+            other bots that I had access to to see how they handled certain elements and eventually settled on a method
+            that I'm pretty happy with. And after that it was just a lot of tedious copy/paste and search/replace. As
+            each slash needed its own “line” of SVG code, but each one was essentially identical aside from it's
+            coordinates. I had originally set it up with the idea of adding more patterns as time went on to eventually
+            become a successor of RandomTiling. But now that RandomTiling is sticking around I think now I'm just going
+            to leave it as is. Maybe someday I'll revisit the idea and steal my own code for it, or maybe I'll have
+            learned something new and go in a totally different direction! </p><br>
         </li>
       </ul>
     </li>
 
-    <!--      
-      <li><u style="color:#b9b8f9"> </u> (on <A href="">Mastodon</a> & on <a href="">BlueSky</a>, you can see its source on <a href="">Cheap Bots Toot Sweet</a> or on <a href="https://bluebotsdonequick.com/">Blue Bots Done Quick</a>)</li>
+
+
+
+
+
+    <li><u style="color:#b9b8f9">Hitomezashi Bot</u> (on <a target="_blank"
+        href="https://beige.party/@hitomezashibot">Mastodon</a> & on <a target="_blank"
+        href="https://bsky.app/profile/hitomezashibot.bsky.social">BlueSky</a>, you can see its source on <a
+        target="_blank" href="">Cheap Bots Toot Sweet</a> or on <a target="_blank"
+        href="https://bluebotsdonequick.com/bots/hitomezashibot.bsky.social">Blue Bots Done Quick</a>)
+      <ul>
+        <li>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em"> Partially inspired by <a
+              target="_blank" href="https://youtu.be/JbfhzlMk2eY">this numberphile video</a> (and you should totally
+            check out <a target="_blank" href="https://doi.org/10.1080/17513472.2023.2187999">this really cool paper</a>
+            for even more mathy and stitching nerdiness.)</p>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">I didn't
+            really mean to make another bot, I MEANT to be working on Advent of Code and learning new stuff, but then
+            someone I followed posted a procedurally generated piece of art they had coded using Hitomezashi as a base
+            and it made my brain go Bzzzzz! And then I just couldn't stop thinking about it. Thankfully, it was fairly
+            easy to put together, as I did indeed steal 10 Print's coded bones for most of it, but instead of having to
+            code in every slash I just had to make one "dasharray" per row, which was much nicer. then I just worked up
+            a couple random/semi random variations for horizontal vs vertical lines, so some images end up being more
+            symmetrical than others to varying degrees. I'm quite pleased with the outcome, the patterns it makes are
+            really fun and pleasing to look at. I may end up borrowing some for my handcraft projects, and really hope
+            it can inspire other handcrafters as well!</p><br>
+        </li>
+      </ul>
+    </li>
+
+
+
+
+
+
+    <li><u style="color:#b9b8f9">Inkle Pattern Bot </u> (on <a target="_blank"
+        href="https://mastodon.art/@Inkle_Pattern_Bot">Mastodon</a> & on <a target="_blank"
+        href="https://bsky.app/profile/inkle-pattern-bot.bsky.social">BlueSky</a>, you can see its source on <a
+        target="_blank" href="https://cheapbotstootsweet.com/source/?url=https://mastodon.art/@Inkle_Pattern_Bot">Cheap
+        Bots Toot Sweet</a> or on <a target="_blank"
+        href="https://bluebotsdonequick.com/bots/inkle-pattern-bot.bsky.social">Blue Bots Done Quick</a>)
+      <ul>
+        <li>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em">If you haven't guessed
+            already, I do a lot more than just code bots (although I may not seem like it at times…) I'm also an avid
+            handcrafter and fiber artist and love to knit, crochet, spin and weave. Sadly with weaving, I do not have
+            room (or money) for the nice floor loom that I would love to work with. So I have contented myself with <a
+              target="_blank" href="https://en.wikipedia.org/wiki/Band_weaving">band weaving</a>, specifically on my
+            adorable little <a target="_blank"
+              href="http://aspinnerweaver.blogspot.com/p/inkle-weaving-faqs-and-answers.html">inkle loom</a>.</p>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">The idea
+            for this bot was actually seeded way back when I was first researching Color Palette Bot. While trolling
+            around glitch for generators and information on Tracery I found <a target="_blank"
+              href="https://hachyderm.io/@ggggbbybby">Rebecca Ravenoak</a>'s really neat <a target="_blank"
+              href="https://magic-inkle.ravenoak.dev/">Inkle pattern generator</a>; it isn't pure Tracery as it relies
+            on javascript and pug to parse the results into the images and present them on the site. At the time even
+            the Tracery was a bit beyond my understanding, but I loved the way it combined two of my loves.</p>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">After
+            recently finishing the Hitomezashi bot, needlearts were fresh on my mind, and the Inkle pattern generator
+            kept popping up towards the front, so I reached out to Rebecca and asked if she would be ok with me
+            re-mixing her project to work with pure Tracery/SVG to make into a bot. And she said yes!</p>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">This
+            turned out to be a lot more difficult than I originally anticipated! The pattern is of two parts: the edge
+            and the center. And then those are mirrored to present the full pattern. So I had to set up the Tracery to
+            not only remember what colors were chosen, but what pattern bits were chosen. Then I had to set up the SVG
+            to present the edge and center patterns next to each other. And THEN mirror that to show the full pattern
+            seamlessly. All without being able to hard code in the coordinates of either component as each bit could be
+            a wide variety of sizes.</p>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">Then
+            also, because the width range was so variable, I had to figure out how to center the pattern within the main
+            SVG container so I didn't end up with a lot of ugly blank space on the side of the smaller patterns. After
+            two days of banging my head against my computer, and thanks to the help of some super awesome fediverse
+            friends, I was able to use a simple little javascript script to center the images on the generator website,
+            AND discovered that one could actually insert simple scripts directly into SVG code! AND that those scripts
+            would actually work with Cheap Bots Toot Sweet! But sadly they would not work on Blue Bots Done Quick 😞.
+            <br>
+            So back to the drawing board I went. Thankfully after pondering the math used in the scripts I as able to
+            extrapolate out what was being done and hack in an approximation into the Tracery and SVG. I'm not entirely
+            pleased with how messy the SVG code is for this, but very impressed with myself for being able to get it all
+            to work correctly while learning a few new to me SVG tricks!
+          </p>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">I really
+            love how this whole bot/generator came out and I've already earmarked several patterns for future projects,
+            and hope that I can serve as inspiration for other crafters and weavers out there as well!<br>
+            (Hint: woven bands aren't just handy for clothes and historical reenactment! Short bands woven with size 10
+            crochet cotton make GREAT bookmarks and gifts, and you can get a ton of bookmarks out of one good sized
+            warp!)</p><br>
+        </li>
+      </ul>
+    </li>
+
+
+
+
+
+
+    <li><u style="color:#b9b8f9">RPG Hack Bot</u> (on <a target="_blank" href="https://dice.camp/@RPG_Hack">Mastodon</a>
+      & on <a target="_blank" href="https://bsky.app/profile/rpg-hack.bsky.social">BlueSky</a>, you can see its source
+      on <a target="_blank" href="https://cheapbotstootsweet.com/source/?url=https://dice.camp/@RPG_Hack">Cheap Bots
+        Toot Sweet</a> or on <a target="_blank" href="https://bluebotsdonequick.com/bots/rpg-hack.bsky.social">Blue Bots
+        Done Quick</a>)
+      <ul>
+        <li>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em">Based on <a target="_blank"
+              href="https://kafkalovesyou.itch.io/hack-this-game">Hack this Game</a> by Kafkalovesyou, made with
+            permission of the author.<br>
+            It’s amazing how many random generation tables for various TTRPGs can be made into great little Tracery bots
+            with a bit of creative word-glue.</p>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">I
+            stumbled upon this little game hacking game while browsing old game jams, and instantly saw how well it
+            would convert into a bot. I contacted the author to check if he would be ok with me turning it into a bot
+            and he seemed really excited! (I love it when that happens!)</p>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">I had to
+            cut a lot of details out and fiddle with things to make it fit into BlueSKy’s minuscule character limit, and
+            then added a handful of extra details to help buff it up. Overall I’m really happy with out it turned out,
+            it was a lot of fun, and I hope I can find more random generators that the authors will let me turn into
+            bots.</p>
+          <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">(If you
+            are a RPG author and have a neat random generation table that you want turned into a bit! Let me know!)</p>
+          <br>
+        </li>
+    </li>
+  </ul>
+  </li>
+
+
+
+
+
+
+  <li><u style="color:#b9b8f9">Sand and Foam</u> (on <a target="_blank"
+      href="https://mastodon.art/@Sand_And_Foam">Mastodon</a> & on <a target="_blank"
+      href="https://bsky.app/profile/sand-and-foam.bsky.social">BlueSky</a>, you can see its source on <a
+      target="_blank" href="https://cheapbotstootsweet.com/source/?url=https://mastodon.art/@Sand_And_Foam">Cheap Bots
+      Toot Sweet</a> or on <a target="_blank" href="https://bluebotsdonequick.com/bots/sand-and-foam.bsky.social">Blue
+      Bots Done Quick</a>)
+    <ul>
+      <li>
+        <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em">There are so many quote bots
+          out there, but I was rather surpised that there weren't any devoted to Kahlil Gibran yet!</p>
+        <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">Gibran’s
+          Sand and Foam is prefectly written for a bot: short (curse BlueSky’s tiny character limit),
+          yet poetic quotes, and so many of them continue to resonate and feel timely.</p>
+        <p style="color:#179190; font-size:.8em; margin-top: .15em; margin-bottom: .15em; text-indent: 22px">I can see
+          why quotebots are so popular to make too, this one was a beeze of simple copy/paste, it came together in just
+          a little over a day.</p><br>
+      </li>
+    </ul>
+  </li>
+
+
+
+
+  <!--      
+      <li><u style="color:#b9b8f9"> </u> (on <a target="_blank" href="">Mastodon</a> & on <a target="_blank" href="">BlueSky</a>, you can see its source on <a target="_blank" href="">Cheap Bots Toot Sweet</a> or on <a target="_blank" href="https://bluebotsdonequick.com/">Blue Bots Done Quick</a>)</li>
       
-      <li><u style="color:#b9b8f9"> </u> (on <A href="">Mastodon</a> & on <a href="">BlueSky</a>, you can see its source on <a href="">Github</a>)</li>
+      <li><u style="color:#b9b8f9"> </u> (on <a target="_blank" href="">Mastodon</a> & on <a target="_blank" href="">BlueSky</a>, you can see its source on <a href="">Github</a>)</li>
       
       <ul>
         <li>
@@ -209,22 +537,44 @@
   <p>More Bots and Generators coming soon!</p>
 
   <p>
-    To learn more about making bots, and bots in general, check out <a href="https://botwiki.org/">Botwiki.org</a>
+    To learn more about making bots, and bots in general, check out <a target="_blank"
+      href="https://botwiki.org/">Botwiki.org</a>
   </p>
 
   <h4>NOTE!</h4>
   <p>
-    Botsin.space  the instance where all of my Mastodon Bots are hosted <a href="https://muffinlabs.com/posts/2024/10/29/10-29-rip-botsin-space">is closing down</a>, so I am in the process of looking for new homes.<br>
-    I don't plan on retiring any of them, but they may go down for a little while, or may be a little wonky during the migration process.
+    <strike>Botsin.space the instance where all of my Mastodon Bots are hosted <a target="_blank"
+        href="https://muffinlabs.com/posts/2024/10/29/10-29-rip-botsin-space">is closing down</a>, so I am in the
+      process of looking for new homes.<br>
+      I don't plan on retiring any of them, but they may go down for a little while, or may be a little wonky during the
+      migration process.</strike>
   </p>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <center>
-    <p><a href="https://fightfascism.glitch.me/"><img src="https://cdn.glitch.com/2249eb84-18cb-406f-a492-82a272962e6f%2Ffightfascismpride-2lines-220px.jpg" title="Fight Fascism sticker by Angus Johnston" alt="Fight fascism" width="220" height="119" style="max-width: 100%;"></a></p>
-  </center>
+  <p> Migration is complete! Color Palette Bot and Remedios Varo have moved to Mastodon.art, while the rest (except
+    NumbersBot) went to Beige.party, I quite like the vibes of Beige.party and i think it's a good home to my weird
+    little menagerie. (NumbersBot is kinda spammy so has gone to live on Mastodon.social, where they don't seem to mind
+    spam quite so much given their moderation history) </p><br>
+
+
+  <div class="home">
+    <center><br><br><br>
+      <p><strong><a href="https://alien-sunset.neocities.org/">HOME</a></strong></p>
+    </center>
+  </div>
+
+
+  <div class="credits">
+    <p><strong>credits:</strong></p>
+    <p>Typeface is <a target="_blank" href="https://www.theleagueofmoveabletype.com/sorts-mill-goudy">Sorts Mill
+        Goudy</a> by <a target="_blank" href="https://crudfactory.com/">Barry Schwartz</a></p>
+  </div>
+  <footer class="footer">
+    <p><a target="_blank" href="https://fightfascism.glitch.me/"><img
+          src="https://cdn.glitch.com/2249eb84-18cb-406f-a492-82a272962e6f%2Ffightfascismpride-220xpx.jpg"
+          title="Fight Fascism sticker by Angus Johnston" alt="Fight fascism" width="220" height="37"
+          style="max-width: 100%;"></a></p>
+    <br><br><br><br>
+    <p>© 2024 Alien_Sunset. All rights reserved unless otherwise noted</p>
+  </footer>
 
 
 </body>

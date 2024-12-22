@@ -39,6 +39,9 @@
     "https://beige.party/@socksbot",
     "https://beige.party/@tenprint",
     "https://beige.party/@HitomezashiBot",
+    "https://mastodon.art/@Inkle_Pattern_Bot",
+    "https://dice.camp/@RPG_Hack",
+    "https://mastodon.art/@Sand_And_Foam",
     "https://bsky.app/profile/color-palette-bot.bsky.social",
     "https://bsky.app/profile/grandmas-quilt.bsky.social",
     "https://bsky.app/profile/soft-skylines.bsky.social",
@@ -48,7 +51,10 @@
     "https://bsky.app/profile/weird-prompts.bsky.social",
     "https://bsky.app/profile/socksbot.bsky.social",
     "https://bsky.app/profile/tenprint.bsky.social",
-    "https://bsky.app/profile/hitomezashibot.bsky.social"
+    "https://bsky.app/profile/hitomezashibot.bsky.social",
+    "https://bsky.app/profile/inkle-pattern-bot.bsky.social",
+    "https://bsky.app/profile/rpg-hack.bsky.social",
+    "https://bsky.app/profile/sand-and-foam.bsky.social"
 ],
 
 "About my bots": ["https://alien-sunset.neocities.org/bots/Bots"],
@@ -187,7 +193,7 @@
 
 "Portrait of Baron Angelo Milfastos as a child / Retrato del Barón Angelo Milfastos de niño (1952) \n https://www.remediosvaro.art/paintings/retrato-del-baron-angelo-milfastos-de-nino \n{img https://remedios-varo-art-images.s3.amazonaws.com/278-retrato-del-bar%C3%B3n-angelo-milfastos-de-ni%C3%B1o.jpg}{alt Portrait of Baron Angelo Milfastos as a child / Retrato del Barón Angelo Milfastos de niño (1952) by Remedios Varo (1908 - 1963)} \nFeel free to help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
-"Christmas Card / Tarjeta Navideña (1952) \n https://www.remediosvaro.art/paintings/tarjeta-navidena\n{img https://remedios-varo-art-images.s3.amazonaws.com/96c47655-b772-4509-8cf5-28f37ee29120.webp}{alt Christmas Card / Tarjeta Navideña (1952) by Remedios Varo (1908 - 1963)} \nFeel free to help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
+"Christmas Card / Tarjeta Navideña (1952) \n https://www.remediosvaro.art/paintings/tarjeta-navidena\n{img https://remedios-varo-art-images.s3.amazonaws.com/96c47655-b772-4509-8cf5-28f37ee29120.webp}{alt Christmas Card / Tarjeta Navideña (1952) by Remedios Varo (1908 - 1963) \n\n A painted scene. An evergreen tree stands in a forest of bare trees and snow. The evergreen is decorated with ornaments and candles. Two birds, red and blue, fly toward the tree carrying ornaments in their beaks. A rabbit holds a candle holder in its mouth. An anthropomorphic flower holds an ornament. \n\n alt text thanks to Karen E. Lund} \n ",
 
 "Premonition /  Premonición (1953) \n https://www.remediosvaro.art/paintings/premonicion\n{img https://remedios-varo-art-images.s3.amazonaws.com/217-premonici%C3%B3n.jpg}{alt Premonition /  Premonición (1953) by Remedios Varo (1908 - 1963)} \nFeel free to help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
@@ -513,6 +519,7 @@
 
 
 "Alt Text Credits":[
+    "Christmas Card / Tarjeta Navideña (1952) - alt text by by Karen E. Lund: @Karen5Lund@mastodon.social"
 
 
 

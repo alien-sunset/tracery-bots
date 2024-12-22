@@ -1,34 +1,24 @@
-a:link {
-  color: #C587E5
+@font-face {
+  font-family: 'sorts_mill_goudyitalic';
+  src: url('/fonts/sortsmillgoudy-italic-webfont.eot');
+  src: url('/fonts/sortsmillgoudy-italic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/sortsmillgoudy-italic-webfont.woff2') format('woff2'),
+    url('/fonts/sortsmillgoudy-italic-webfont.woff') format('woff'),
+    url('/fonts/sortsmillgoudy-italic-webfont.ttf') format('truetype');
 }
 
-a:visited {
-  color: #6c92e5
+@font-face {
+  font-family: 'sorts_mill_goudyregular';
+  src: url('/fonts/sortsmillgoudy-regular-webfont.eot');
+  src: url('/fonts/sortsmillgoudy-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/sortsmillgoudy-regular-webfont.woff2') format('woff2'),
+    url('/fonts/sortsmillgoudy-regular-webfont.woff') format('woff'),
+    url('/fonts/sortsmillgoudy-regular-webfont.ttf') format('truetype');
 }
-
-h1 {color: #179190;
-  font-size: 3.5em;
-  line-height: 1;}
-h2 {color: #38faac;
-  font-size: 2.25em;
-  line-height: .75;}
-h3 {color: #179190;
-  font-size: 2em;
-  line-height: .75;}
-h4 {color: #38faac;
-  font-size: 1.75em;
-  line-height: .75;}
-
-p {color: #52B8A1;
-  font-size: 1.25em;
-  line-height: 1.3;}
-  
-ul {color: #179190;
-  font-size: 1.15em;}
 
 
 body {
-  font-family: Garamond;
+  font-family: "sorts_mill_goudyregular", Garamond, Serif;
   color: #179190;
   margin: 2% auto;
   max-width: 66%;
@@ -46,4 +36,88 @@ body {
   100% {
     background-position: 100%, 50%;
   }
+}
+
+
+
+a:link {
+  color: #C587E5
+}
+
+a:visited {
+  color: #6c92e5
+}
+
+h1 {
+  color: #179190;
+  font-size: 3.5em;
+  line-height: 1;
+}
+
+h2 {
+  color: #38faac;
+  font-size: 2.25em;
+  line-height: .75;
+}
+
+h3 {
+  color: #179190;
+  font-size: 2em;
+  line-height: .75;
+}
+
+h4 {
+  color: #38faac;
+  font-size: 1.75em;
+  line-height: .75;
+}
+
+p {
+  color: #52B8A1;
+  font-size: 1.25em;
+  line-height: 1.3;
+}
+
+ul {
+  color: #179190;
+  font-size: 1.15em;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  display: inline-block;
+  align-content: center;
+  text-align: center;
+}
+
+.credits {
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  font-size: .75em;
+  line-height: 1;
+  margin: 6rem auto 1rem;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+
+.footer {
+  border-top: 2px solid #b9b8f9;
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  align-content: center;
+  text-align: center;
+  font-size: .75em;
+  line-height: 1;
+  margin: 1rem auto 1rem;
+  padding: 3rem 0 0 1rem;
+}
+
+.footer a:hover,
+.footer a:focus {
+  background: #C587E5;
 }

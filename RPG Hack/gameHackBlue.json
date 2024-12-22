@@ -1,0 +1,194 @@
+{
+  "Bot home": ["https://bsky.app/profile/rpg-hack.bsky.social"],
+"Bot source": ["https://bluebotsdonequick.com/bots/rpg-hack.bsky.social"],
+"Bot maker": [
+    "https://dice.camp/@Alien_Sunset",
+    "https://bsky.app/profile/aliensunset.bsky.social",
+    "https://github.com/alien-sunset",
+    "https://linktr.ee/alien_sunset"
+],
+"All the Bots": [
+    "https://mastodon.art/@Color_Palette_Bot",
+    "https://beige.party/@GrandmasQuilt",
+    "https://beige.party/@Soft_Skylines",
+    "https://mastodon.social/@NumbersBot",
+    "https://mastodon.art/@Remedios_Varo_Bot",
+    "https://beige.party/@aliensaliens",
+    "https://beige.party/@weird_prompts",
+    "https://beige.party/@socksbot",
+    "https://beige.party/@tenprint",
+    "https://beige.party/@HitomezashiBot",
+    "https://mastodon.art/@Inkle_Pattern_Bot",
+    "https://dice.camp/@RPG_Hack",
+    "https://mastodon.art/@Sand_And_Foam",
+    "https://bsky.app/profile/color-palette-bot.bsky.social",
+    "https://bsky.app/profile/grandmas-quilt.bsky.social",
+    "https://bsky.app/profile/soft-skylines.bsky.social",
+    "https://bsky.app/profile/numbersbot.bsky.social",
+    "https://bsky.app/profile/remedios-varo-bot.bsky.social",
+    "https://bsky.app/profile/aliensaliens.bsky.social",
+    "https://bsky.app/profile/weird-prompts.bsky.social",
+    "https://bsky.app/profile/socksbot.bsky.social",
+    "https://bsky.app/profile/tenprint.bsky.social",
+    "https://bsky.app/profile/hitomezashibot.bsky.social",
+    "https://bsky.app/profile/inkle-pattern-bot.bsky.social",
+    "https://bsky.app/profile/rpg-hack.bsky.social",
+    "https://bsky.app/profile/sand-and-foam.bsky.social"
+],
+
+"About my bots": ["https://alien-sunset.neocities.org/bots/Bots"],
+  
+  
+  
+  
+  "origin": ["#game# \n\n\\#RPG \\#gameHack"],
+  "game": [
+    "[#choose#]My new game is a #system# system#roll#. \nYour skill are: #skills#.\n& your quest is to #quest#."
+  ],
+
+  "choose": [
+    "[system:roll over][roll: where you roll #1to4##D#]",
+    "[system:roll under][roll: where you roll #1to4##D#]",
+    "[system:dice pool][roll:#poolRoll#]",
+    "[system:secret tokens][roll:#TokenRoll#]"
+  ],
+  
+  "poolRoll": [
+    ", you start with #2to4##D#, & can add up to #1to8# more for every #points# in the relevant stat, to a max of #6to20#"
+  ],
+  "TokenRoll": [
+    ", the GM secretly rolls #1to4##D# x #1to4##D# to generate a pool, & you draw from the pool to augment stats during play"
+  ],
+
+
+  "skills": [
+    "Mind, Body, Soul, Magic, Spirit, & Callousness",
+    "Mind, Body, Soul, Magic, & Spirit",
+    "Mind, Body, Soul, & Magic",
+    "Mind, Body, & Soul",
+    "Mind & Body",
+    "Psyche, Gnosis, Ousis, Chaos, Order, & Mu",
+    "Psyche, Gnosis, Ousis, Chaos, & Order",
+    "Psyche, Gnosis, Ousis, & Chaos",
+    "Psyche, Gnosis, & Ousis",
+    "Psyche & Gnosis",
+    "Strength, Intelligence, Charisma, Dexterity, Manipulation, & Resolve",
+    "Strength, Intelligence, Charisma, Dexterity, & Manipulation",
+    "Strength, Intelligence, Charisma, & Dexterity",
+    "Strength, Intelligence, & Charisma",
+    "Strength & Intelligence",
+    "Smarts, Brawn, Charisma, Wits, Agility, & Fortitude",
+    "Smarts, Brawn, Charisma, Wits, & Agility",
+    "Smarts, Brawn, Charisma, & Wits",
+    "Smarts, Brawn, & Charisma",
+    "Smarts & Brawn"
+  ],
+
+  "quest": [
+    "retrieve #type.a# #thing# from #decriptor.a# #agent#",
+    "retrieve #type.a# #thing# from #decriptor.a# #agent#",
+    "rescue #person# from #decriptor.a# #agent#",
+    "explore #placeType.a# #place# for #things#",
+    "explore #placeType.a# #place# for #things#"
+  ],
+
+  "type": ["historic", "magical", "mystical", "royal", "cursed", "famous", "mythical"],
+
+  "thing": ["artifact", "artifact", "toy", "relic", "\"ritual object\""],
+
+  "person": [
+    "a princess",
+    "a knight",
+    "a messenger",
+    "a diplomat",
+    "a princess",
+    "a knight",
+    "a messenger",
+    "a diplomat",
+    "#2to20# hostages"
+  ],
+
+  "placeType": ["abandoned", "haunted", "enchanted", "ancient", "decrepit", "cursed", "#type#", "#type#"],
+
+  "place": [
+    "cave",
+    "cave",
+    "cave",
+    "museum",
+    "castle",
+    "prison",
+    "prison",
+    "hospital",
+    "forest",
+    "forest",
+    "forest",
+    "dungeon",
+    "dungeon",
+    "outpost"
+  ],
+
+  "decriptor": [
+    "beautiful",
+    "powerful",
+    "evil",
+    "ancient",
+    "cunning",
+    "corrupt",
+    "influential",
+    "terrifying",
+    "aloof",
+    "bumbling",
+    "cursed"
+  ],
+
+  "agent": [
+    "dragon",
+    "daemon",
+    "sorcerer",
+    "politician",
+    "vampire",
+    "queen",
+    "necromancer",
+    "fairy",
+    "gang of #2to6# #agents#",
+    "cult of #agents#",
+    "army of #agents#",
+    "corporation of #agents#"
+  ],
+
+  "agents": [
+    "ghosts",
+    "vampires",
+    "vampires",
+    "necromancers",
+    "necromancers",
+    "daemons",
+    "daemons",
+    "fair folk",
+    "villagers",
+    "politicians",
+    "idiots"
+  ],
+
+  "things": [
+    "ghosts",
+    "treasure",
+    "fame",
+    "political gain",
+    "romance",
+    "secrets",
+    "#agents#"
+  ],
+
+  "1to40": [
+    "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40"
+  ],
+  "2to20": ["2", "3", "4","5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20"],
+  "6to20": ["6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20"],
+  "1to8": ["1", "2", "3", "4", "5", "6", "7", "8"],
+  "2to6": ["2", "3", "4", "5", "6"],
+  "1to4": ["1", "2", "3", "4"],
+  "2to4": ["2", "3", "4"],
+  "D": ["d4", "d6", "d8", "d10", "d12", "d20"],
+  "points": ["1 point", "2 points", "3 points"]
+}
