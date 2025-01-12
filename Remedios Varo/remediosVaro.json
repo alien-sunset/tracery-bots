@@ -42,6 +42,7 @@
     "https://mastodon.art/@Inkle_Pattern_Bot",
     "https://dice.camp/@RPG_Hack",
     "https://mastodon.art/@Sand_And_Foam",
+    "https://beige.party/@shakespearean_Insults",
     "https://bsky.app/profile/color-palette-bot.bsky.social",
     "https://bsky.app/profile/grandmas-quilt.bsky.social",
     "https://bsky.app/profile/soft-skylines.bsky.social",
@@ -54,7 +55,8 @@
     "https://bsky.app/profile/hitomezashibot.bsky.social",
     "https://bsky.app/profile/inkle-pattern-bot.bsky.social",
     "https://bsky.app/profile/rpg-hack.bsky.social",
-    "https://bsky.app/profile/sand-and-foam.bsky.social"
+    "https://bsky.app/profile/sand-and-foam.bsky.social",
+    "https://bsky.app/profile/shakespeareinsults.bsky.social"
 ],
 
 "About my bots": ["https://alien-sunset.neocities.org/bots/Bots"],
@@ -193,7 +195,7 @@
 
 "Portrait of Baron Angelo Milfastos as a child / Retrato del Barón Angelo Milfastos de niño (1952) \n https://www.remediosvaro.art/paintings/retrato-del-baron-angelo-milfastos-de-nino \n{img https://remedios-varo-art-images.s3.amazonaws.com/278-retrato-del-bar%C3%B3n-angelo-milfastos-de-ni%C3%B1o.jpg}{alt Portrait of Baron Angelo Milfastos as a child / Retrato del Barón Angelo Milfastos de niño (1952) by Remedios Varo (1908 - 1963)} \nFeel free to help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
-"Christmas Card / Tarjeta Navideña (1952) \n https://www.remediosvaro.art/paintings/tarjeta-navidena\n{img https://remedios-varo-art-images.s3.amazonaws.com/96c47655-b772-4509-8cf5-28f37ee29120.webp}{alt Christmas Card / Tarjeta Navideña (1952) by Remedios Varo (1908 - 1963) \n\n A painted scene. An evergreen tree stands in a forest of bare trees and snow. The evergreen is decorated with ornaments and candles. Two birds, red and blue, fly toward the tree carrying ornaments in their beaks. A rabbit holds a candle holder in its mouth. An anthropomorphic flower holds an ornament. \n\n alt text thanks to Karen E. Lund} \n ",
+"Christmas Card / Tarjeta Navideña (1952) \n https://www.remediosvaro.art/paintings/tarjeta-navidena\n{img https://remedios-varo-art-images.s3.amazonaws.com/96c47655-b772-4509-8cf5-28f37ee29120.webp}{alt Christmas Card / Tarjeta Navideña (1952) by Remedios Varo (1908 - 1963)  A painted scene. An evergreen tree stands in a forest of bare trees and snow. The evergreen is decorated with ornaments and candles. Two birds, red and blue, fly toward the tree carrying ornaments in their beaks. A rabbit holds a candle holder in its mouth. An anthropomorphic flower holds an ornament.  alt text thanks to Karen E. Lund} \n\n ",
 
 "Premonition /  Premonición (1953) \n https://www.remediosvaro.art/paintings/premonicion\n{img https://remedios-varo-art-images.s3.amazonaws.com/217-premonici%C3%B3n.jpg}{alt Premonition /  Premonición (1953) by Remedios Varo (1908 - 1963)} \nFeel free to help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
@@ -275,7 +277,7 @@
 
 "Tree Cathedral / Catedral Vegetal (1957) \n https://www.remediosvaro.art/paintings/catedral-vegetal-2 \n{img https://remedios-varo-art-images.s3.amazonaws.com/176-catedral-vegetal.jpg}{alt  Tree Cathedral / Catedral Vegetal (1957) by Remedios Varo (1908 - 1963)} \nFeel free to help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
-"Creation of the Birds / Creación de las Aves (1957) \n https://www.remediosvaro.art/paintings/creacion-de-las-aves \n{img https://remedios-varo-art-images.s3.amazonaws.com/57-creaci%C3%B3n-de-las-aves.jpg}{alt Creation of the Birds / Creación de las Aves (1957) by Remedios Varo (1908 - 1963)} \nFeel free to help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
+"Creation of the Birds / Creación de las Aves (1957) \n https://www.remediosvaro.art/paintings/creacion-de-las-aves \n{img https://remedios-varo-art-images.s3.amazonaws.com/57-creaci%C3%B3n-de-las-aves.jpg}{alt Creation of the Birds / Creación de las Aves (1957) by Remedios Varo (1908 - 1963) Painting of an owl woman creating birds. She’s sitting at a desk. There’s an ant-like machine on her right, distributing drops of blue, yellow and red paint onto her mixing plate. A beam of starlight is shone on the paper with a prism she is holding in her left hand. She wears a tiny violin like a pendant around her neck and a thread comes out of it, into the brush she’s using to create the birds. The combination of the paint and light creates a living bird, flying out of the canvas. There are other birds around, either flying or eating crumbs on the floor. alt text thanks to @unluckyhaircut@piaille.fr} \n\n",
 
 "The Fern Cat / El Gato Helecho (1957) \n https://www.remediosvaro.art/paintings/el-gato-helecho \n{img https://remedios-varo-art-images.s3.amazonaws.com/130-el-gato-helecho.jpg}{alt The Fern Cat / El Gato Helecho (1957) by Remedios Varo (1908 - 1963)} \nFeel free to help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
@@ -321,7 +323,7 @@
 
 "The Poor / El Pobre (1958) \n https://www.remediosvaro.art/paintings/el-pobre \n{img https://remedios-varo-art-images.s3.amazonaws.com/118-el-pobre.jpg}{alt The Poor / El Pobre (1958) by Remedios Varo (1908 - 1963)} \nFeel free to help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
-"The King / El Rey (1958) \n https://www.remediosvaro.art/paintings/el-rey\n{img https://remedios-varo-art-images.s3.amazonaws.com/117-el-rey.jpg}{alt The King / El Rey (1958) by Remedios Varo (1908 - 1963)} \nFeel free to help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
+"The King / El Rey (1958) \n https://www.remediosvaro.art/paintings/el-rey\n{img https://remedios-varo-art-images.s3.amazonaws.com/117-el-rey.jpg}{alt The King / El Rey (1958) by Remedios Varo (1908 - 1963) Painting of a king. The background is speckled with shades of brown and gold. The king is wearing a red coat, draped around his neck, with a dark fleur-de-lys pattern. His beard and hair is long and curling away from his face as if it’s been neatly brushed. He is wearing a strange crown with a domino mask that looks like it is blending with his face. The mask is white and extends in spikes with little stars at the end on each side of his face. The crown is gold and becomes darker as it rises high above his head with three star-like jewels stacked vertically. His eyes are open, his face in a neutral expression. alt text thanks to @unluckyhaircut@piaille.fr}\n\n ",
 
 "The Rich / El Rico (1958) \n https://www.remediosvaro.art/paintings/el-rico \n{img https://remedios-varo-art-images.s3.amazonaws.com/115-el-rico.jpg}{alt The Rich / El Rico (1958) by Remedios Varo (1908 - 1963)} \nFeel free to help improve this bot by suggesting better alt text in the comments, thanks. \n\n ",
 
@@ -519,7 +521,9 @@
 
 
 "Alt Text Credits":[
-    "Christmas Card / Tarjeta Navideña (1952) - alt text by by Karen E. Lund: @Karen5Lund@mastodon.social"
+    "Christmas Card / Tarjeta Navideña (1952) - alt text by Karen E. Lund: @Karen5Lund@mastodon.social",
+    "The King / El Rey (1958) -  alt text by @unluckyhaircut@piaille.fr",
+    "Creation of the Birds / Creación de las Aves (1957) -  alt text by @unluckyhaircut@piaille.fr"
 
 
 

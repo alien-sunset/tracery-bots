@@ -21,6 +21,7 @@
     "https://mastodon.art/@Inkle_Pattern_Bot",
     "https://dice.camp/@RPG_Hack",
     "https://mastodon.art/@Sand_And_Foam",
+    "https://beige.party/@shakespearean_Insults",
     "https://bsky.app/profile/color-palette-bot.bsky.social",
     "https://bsky.app/profile/grandmas-quilt.bsky.social",
     "https://bsky.app/profile/soft-skylines.bsky.social",
@@ -33,8 +34,11 @@
     "https://bsky.app/profile/hitomezashibot.bsky.social",
     "https://bsky.app/profile/inkle-pattern-bot.bsky.social",
     "https://bsky.app/profile/rpg-hack.bsky.social",
-    "https://bsky.app/profile/sand-and-foam.bsky.social"
+    "https://bsky.app/profile/sand-and-foam.bsky.social",
+    "https://bsky.app/profile/shakespeareinsults.bsky.social"
 ],
+
+"copyright": ["All bot created content is released as CC0"],
 
 "About my bots": ["https://alien-sunset.neocities.org/bots/Bots"],
 
